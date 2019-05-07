@@ -182,15 +182,15 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Thesis Title} % Your thesis title - this is used in the title and abstract
+\thesistitle{A Communication architecture for UAV swarms} % Your thesis title - this is used in the title and abstract
 %-------------------------------------------------  
-\supervisor{Thesis Supervisor} % You supervisor's name - this is used in the title page
+\supervisor{Ketan Rajawat} % You supervisor's name - this is used in the title page
 %-------------------------------------------------   
 \examiner{} % Your examiner's name - this is not currently used anywhere in the template, cite it with \examname if you want it
 %-------------------------------------------------   
-\degree{Master of Technology/PhD} % Your degree name - this is currently used in the title page and abstract
+\degree{Master of Technology} % Your degree name - this is currently used in the title page and abstract
 %-------------------------------------------------   
-\authors{authorname} % Your name - this is used in the title page and abstract
+\authors{Sai Aditya Chundi} % Your name - this is used in the title page and abstract
 %-------------------------------------------------   
 \addresses{} % Your address - this is not currently used anywhere in the template, cite it with \addressnames if you want it
 %-------------------------------------------------   
@@ -206,13 +206,13 @@
                 {INDIAN INSTITUTE OF TECHNOLOGY KANPUR}} % Your university's name in capitals - this is currently used in the abstract page
                 {INDIAN INSTITUTE OF TECHNOLOGY KANPUR}}
 %-------------------------------------------------                
-\department{\texorpdfstring{\href{Department or School Web Site URL Here (include http://www.iitk.ac.in/ce)} % Your department's URL
-                {Department of Civil Engineering}} % Your department's name - used in the title page and abstract
-                {Department of Civil Engineering}}
+\department{\texorpdfstring{\href{Department or School Web Site URL Here (include http://www.iitk.ac.in/ee)} % Your department's URL
+                {Department of Electrical Engineering}} % Your department's name - used in the title page and abstract
+                {Department of Electrical Engineering}}
 %-------------------------------------------------                
-\DEPARTMENT{\texorpdfstring{\href{Department or School Web Site URL Here (include http://www.iitk.ac.in/ce)} % Your department's URL
-                {DEPARTMENT OF CIVIL ENGINEERING}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
-                {DEPARTMENT OF CIVIL ENGINEERING}}
+\DEPARTMENT{\texorpdfstring{\href{Department or School Web Site URL Here (include http://www.iitk.ac.in/ee)} % Your department's URL
+                {DEPARTMENT OF ELECTRICAL ENGINEERING}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
+                {DEPARTMENT OF ELECTRICAL ENGINEERING}}
 %-------------------------------------------------                
 %\group{\texorpdfstring{\href{Research Group Web Site URL Here (include http://)} % Your research group's URL
 %                {Research Group Name}} % Your research group's name - this is currently used in the title page 
@@ -302,7 +302,7 @@
     \bigskip
     \HRule \\[0.4cm] % Horizontal line
 		Name of the student:	 \textbf{\authornames}	\hfill Roll No: \textbf{Roll No.} \\
-		Degree for which submitted:  \textbf{M.Tech.} \hfill Department:  \textbf{Civil Engineering} \\
+		Degree for which submitted:  \textbf{M.Tech.} \hfill Department:  \textbf{Electrical Engineering} \\
 		Thesis title: \textbf{\@title}\\
 		Thesis supervisor:  \textbf{\supname}\\
 		Month and year of thesis submission: \textbf{{\large \today}\\[0.4cm] }
