@@ -1,0 +1,35 @@
+\begin{thebibliography}{}
+
+\bibitem[{Das} et~al., 2015]{preagr}
+{Das}, J., {Cross}, G., {Qu}, C., {Makineni}, A., {Tokekar}, P., {Mulgaonkar},
+  Y., and {Kumar}, V. (2015).
+\newblock Devices, systems, and methods for automated monitoring enabling
+  precision agriculture.
+\newblock In {\em 2015 IEEE International Conference on Automation Science and
+  Engineering (CASE)}, pages 462--469.
+
+\bibitem[Dunbabin and Marques, 2012]{envmon}
+Dunbabin, M. and Marques, L. (2012).
+\newblock Robots for environmental monitoring: Significant advancements and
+  applications.
+\newblock {\em IEEE Robotics \& Automation Magazine - IEEE ROBOT AUTOMAT},
+  19:24--39.
+
+\bibitem[{Erdelj} et~al., 2017]{disman}
+{Erdelj}, M., {Natalizio}, E., {Chowdhury}, K.~R., and {Akyildiz}, I.~F.
+  (2017).
+\newblock Help from the sky: Leveraging uavs for disaster management.
+\newblock {\em IEEE Pervasive Computing}, 16(1):24--32.
+
+\bibitem[Puri, 2005]{trasur}
+Puri, A. (2005).
+\newblock A survey of unmanned aerial vehicles (uavs) for traffic surveillance.
+\newblock {\em University of South Florida - internal report}.
+
+\bibitem[Whitehead and Hugenholtz, 2014]{remsen}
+Whitehead, K. and Hugenholtz, C.~H. (2014).
+\newblock Remote sensing of the environment with small unmanned aircraft
+  systems (uass), part 1: a review of progress and challenges.
+\newblock {\em Journal of Unmanned Vehicle Systems}, 02(03):69--85.
+
+\end{thebibliography}
