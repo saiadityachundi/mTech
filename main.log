@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.1)  10 MAY 2019 00:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.1)  11 MAY 2019 00:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,7 +878,7 @@ LaTeX Info: Redefining \nameref on input line 22.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<Pictures/redlogo.jpg, id=65, 230.8625pt x 219.82124pt>
+<Pictures/redlogo.jpg, id=57, 230.8625pt x 219.82124pt>
 File: Pictures/redlogo.jpg Graphic file (type jpg)
 <use Pictures/redlogo.jpg>
 Package pdftex.def Info: Pictures/redlogo.jpg  used on input line 69.
@@ -1012,18 +1012,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F273E057FE212A0D074A8289E59D248F;1846.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 63D4F35786FF68DA481F87269178A2A0;1705
+(rerunfilecheck)             After:  C6BA3CF4019C768B2AA1F21B28424ECC;1705.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
  ) 
 Here is how much of TeX's memory you used:
- 13361 strings out of 494880
- 186112 string characters out of 6179602
- 251182 words of memory out of 5000000
- 16441 multiletter control sequences out of 15000+600000
+ 13367 strings out of 494880
+ 186178 string characters out of 6179602
+ 251251 words of memory out of 5000000
+ 16447 multiletter control sequences out of 15000+600000
  12711 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,11n,45p,857b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,11n,45p,850b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1034,10 +1041,10 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti12.pfb>
-Output written on main.pdf (15 pages, 245828 bytes).
+Output written on main.pdf (15 pages, 247619 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
+ 218 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
  45 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 

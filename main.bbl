@@ -32,4 +32,15 @@ Whitehead, K. and Hugenholtz, C.~H. (2014).
   systems (uass), part 1: a review of progress and challenges.
 \newblock {\em Journal of Unmanned Vehicle Systems}, 02(03):69--85.
 
+\bibitem[Yang~Y, 2007]{coosea}
+Yang~Y, Polycarpou~MM, M.~A. (2007).
+\newblock Multi-uav cooperative search using an opportunistic learning method.
+\newblock {\em Journal of Dynamic Systems, Measuremnet, and Control.}, pages
+  716--728.
+
+\bibitem[İlker Bekmezci et~al., 2013]{fanets}
+İlker Bekmezci, Sahingoz, O.~K., and Şamil Temel (2013).
+\newblock Flying ad-hoc networks (fanets): A survey.
+\newblock {\em Ad Hoc Networks}, 11(3):1254 -- 1270.
+
 \end{thebibliography}

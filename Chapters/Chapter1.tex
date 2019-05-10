@@ -11,28 +11,15 @@
 %----------------------------------------------------------------------------------------
 
 \section{Rise of Unmanned Aerial Vehicles}
-Unmanned aerial vehicles or UAVs have become ubiquitous in the past decade, both in research and industry. A myriad of applications involving UAVs in diverse fields has made them quite popular. Potential domestic  applications include Environmental monitoring and surveillance \cite{envmon}, traffic management \cite{trasur}, remote sensing \cite{remsen}, precision agriculture and farming \cite{preagr}, disaster management \cite{disman}, to name a few. The use of UAVs for defence purposes is only poised to grow in the next decade. It's not hard to see the appeal of UAVs in the defence sector with applications ranging from simple surveillance and reconnaissance missions to offensives like \textit{search and destroy} missions and targeted hits.
+Unmanned aerial vehicles or UAVs have become ubiquitous in the past decade, both in research and industry. A myriad of applications involving UAVs in diverse fields has made them quite popular. Potential domestic  applications include Environmental monitoring and surveillance \cite{envmon}, traffic management \cite{trasur}, remote sensing \cite{remsen}, precision agriculture and farming \cite{preagr}, disaster management \cite{disman}, to name a few. The use of UAVs for defence purposes is only poised to grow in the next decade. It is not hard to see the appeal of UAVs in the defence sector with applications ranging from simple surveillance and reconnaissance missions to offensives like \textit{search and destroy} missions and targeted hits.
 
 Much of the rise of this interest in UAVs can be attributed to associated advances in robotics, largely driven by the progress in robust and cheap sensors and communication technology. The emergence of scalable and extensible software architectures like the Robot Operating System(ROS), which enables easy integration of various subsystems further pushed the progress in these domains.
 
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-\subsection{Subsection 1}
+While early applications of UAVs were single UAV based, the focus is now shifting towards applications involving multiple UAVs, cooperatively completing tasks. There are several advantages of multi-UAV systems over single UAV systems. In certain applications like search and rescue missions, for instance, the use of multiple UAVs for surveying an area can significantly reduce the time taken to complete the task \cite{coosea}. As given by \cite{fanets}, other advantages of multi-UAV systems over single UAV systems include cost, scalability, survivability and speed.
 
-Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
+Though UAV swarms have promising capabilities, they have quite a few challenges to overcome. Communication is one of the main hindrances to realize robust swarms of UAVs.
 
-%-----------------------------------
-%	SUBSECTION 2
-%-----------------------------------
+\section{The Challenge of Communications in UAV swarms}
+Since the first applications were single UAV based, communication architecture in these systems was simple and straightforward. Often, there only needed to be a communication link between the UAV and the ground station. In some cases where the UAV has to cover a larger area, there could be multiple ground stations, and the UAV would have to communicate with the ground station near it. Even then, the overall architecture was pretty basic.
 
-\subsection{Subsection 2}
-Morbi rutrum odio eget arcu adipiscing sodales. Aenean et purus a est pulvinar pellentesque. Cras in elit neque, quis varius elit. Phasellus fringilla, nibh eu tempus venenatis, dolor elit posuere quam, quis adipiscing urna leo nec orci. Sed nec nulla auctor odio aliquet consequat. Ut nec nulla in ante ullamcorper aliquam at sed dolor. Phasellus fermentum magna in augue gravida cursus. Cras sed pretium lorem. Pellentesque eget ornare odio. Proin accumsan, massa viverra cursus pharetra, ipsum nisi lobortis velit, a malesuada dolor lorem eu neque.
-
-%----------------------------------------------------------------------------------------
-%	SECTION 2
-%----------------------------------------------------------------------------------------
-
-\section{Main Section 2}
-
-Sed ullamcorper quam eu nisl interdum at interdum enim egestas. Aliquam placerat justo sed lectus lobortis ut porta nisl porttitor. Vestibulum mi dolor, lacinia molestie gravida at, tempus vitae ligula. Donec eget quam sapien, in viverra eros. Donec pellentesque justo a massa fringilla non vestibulum metus vestibulum. Vestibulum in orci quis felis tempor lacinia. Vivamus ornare ultrices facilisis. Ut hendrerit volutpat vulputate. Morbi condimentum venenatis augue, id porta ipsum vulputate in. Curabitur luctus tempus justo. Vestibulum risus lectus, adipiscing nec condimentum quis, condimentum nec nisl. Aliquam dictum sagittis velit sed iaculis. Morbi tristique augue sit amet nulla pulvinar id facilisis ligula mollis. Nam elit libero, tincidunt ut aliquam at, molestie in quam. Aenean rhoncus vehicula hendrerit.
+As we noted earlier, there is a rapidly growing interest in realizing swarms of cooperative and collaborative UAVs, accomplishing complex tasks. Robust and reliable communication among the UAVs is an essential and critical component in enabling cooperative and collaborative behaviour in these UAV swarms.
