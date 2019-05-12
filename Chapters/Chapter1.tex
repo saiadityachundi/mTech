@@ -21,6 +21,28 @@ While early applications of UAVs were single UAV based, the focus is now shiftin
 Though UAV swarms have promising capabilities, they have quite a few challenges to overcome. Communication is one of the main hindrances to realize robust swarms of UAVs.
 
 \section{The Challenge of Communications in UAV swarms}
-While there is much literature regarding communication in UAV systems, \cite{fanets} and \cite{lavgupta} are two good survey articles regarding the current trends and issues in communication in UAV swarms. While pointing out the shifting interest towards multi UAV systems, due to their advantages over single UAV systems, they also identify the challenges in these systems, communication among the UAVs being the most notable one. 
+While there is much literature regarding communication in UAV systems, \cite{fanets} and \cite{lavgupta} are two good survey articles regarding the current trends and issues in communication in UAV swarms. Besides pointing out the shifting interest towards multi UAV systems, due to their advantages over single UAV systems, they also identify the challenges in these systems, communication among the UAVs being the most notable one. 
 
 Since the first applications were single UAV based, communication architecture in these systems was simple and straightforward. Often, there only needed to be a communication link between the UAV and the ground station. In some cases where the UAV has to cover a larger area, there could be multiple ground stations, and the UAV would have to communicate with the ground station near it. Even then, the overall architecture was pretty basic. As we noted earlier, there is a rapidly growing interest in realizing swarms of cooperative and collaborative UAVs, accomplishing complex tasks. Robust and reliable communication among the UAVs is an essential and critical component in enabling cooperative and collaborative behaviour in these UAV swarms.
+
+While there is some interest in infrastructure based communication in UAVs, like using cellular infrastructure for UAVs \cite{celsur}, much of the research community considers enabling UAV communications in infrastructure less environments, more significant. These so called adhoc networks are important, for instance in disaster management scenarios where the existing infrastructure is damaged, or in military applications where there is no pre-existing infrastructure. The authors in \cite{lavgupta} try to identify several possible communication architectures for multi UAV networks.
+
+\begin{figure}
+	\centering
+	\begin{subfigure}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[scale=0.45]{Pictures/star.png}
+		\caption{Star Configuration}
+		\label{fig: starconf}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.3\textwidth}
+		\centering
+		\includegraphics[scale=0.45]{Pictures/mesh.png}
+		\caption{Mesh Configuration}
+		\label{fig: meshconf}
+	\end{subfigure}
+	\caption{Possible network configurations for communications in UAVs}
+	\label{fig: netconf}
+\end{figure}
+
+Figure \ref{fig: starconf} shows the star topology, where all the UAVs are connected to the ground station. In this configuration, the necessary communication among UAVs also needs to be routed through the ground station. Figure \ref{fig: meshconf} shows the mesh topology, where the UAVs communicate among themselves using an adhoc network, they themselves form. Typically, the ground station is also a part of the adhoc network.

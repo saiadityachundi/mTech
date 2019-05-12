@@ -9,10 +9,12 @@
 % custom packages
 \usepackage{comment}
 \usepackage{setspace}
+\usepackage{subcaption}
+\usepackage{float}
 
 % prints author names as small caps
 
-%\usepackage{subcaption} %incompatible with subfig
+%\usepackage{subcaption} %incompatible with subfig -- commented subfig package in Thesis.cls
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 \usepackage[square, numbers]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' v
 
@@ -219,6 +221,7 @@ $ \varepsilon $ & strain tensor \\
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
 %----------------------------------------------------------------------------------------
+% double spacing for the normal body
 \doublespacing
 
 \mainmatter % Begin numeric (1,2,3...) page numbering
@@ -258,6 +261,9 @@ $ \varepsilon $ & strain tensor \\
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
+% single spacing for bibliography
+\singlespacing
+
 \nocite{*}
 \label{Bibliography}
 

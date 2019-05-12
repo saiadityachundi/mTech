@@ -14,6 +14,6 @@
 \contentsline {section}{\numberline {1.1}Rise of Unmanned Aerial Vehicles}{1}{section.18}
 \contentsline {section}{\numberline {1.2}The Challenge of Communications in UAV swarms}{2}{section.19}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix A}{3}{appendix.20}
+\contentsline {chapter}{\numberline {A}Appendix A}{4}{appendix.21}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{4}{dummy.21}
+\contentsline {chapter}{Bibliography}{5}{dummy.22}
