@@ -45,4 +45,14 @@ While there is some interest in infrastructure based communication in UAVs, like
 	\label{fig: netconf}
 \end{figure}
 
-Figure \ref{fig: starconf} shows the star topology, where all the UAVs are connected to the ground station. In this configuration, the necessary communication among UAVs also needs to be routed through the ground station. Figure \ref{fig: meshconf} shows the mesh topology, where the UAVs communicate among themselves using an adhoc network, they themselves form. Typically, the ground station is also a part of the adhoc network.
+Figure \ref{fig: starconf} shows the star topology, where all the UAVs are connected to the ground station. In this configuration, the necessary communication among UAVs also needs to be routed through the ground station. Figure \ref{fig: meshconf} shows the mesh topology, where the UAVs communicate among themselves using an adhoc network, they themselves form. Typically, the ground station is also a part of the adhoc network. In the star configuration, since all the data has to be routed through the ground station, there would be higher latency and congestion in the network.
+
+On top of that, if the UAVs are considerably far from the ground station, the network in star configuration may not provide reasonably high bandwidth for the communication among the UAVs. Moreover, if any of the UAVs loses its link to the ground, it cannot be accessible by any other UAVs, even if they are close. It is clear to see that the mesh configuration has a considerable advantage over the star configuration. Indeed, there is a consensus in the literature that realizing adhoc networks is the best solution for communication in multi UAV systems.There is significant amount of literature on FANETs, the Flying Adhoc Networks.  \cite{fanets} is a good survey article regarding FANETs.
+
+\begin{comment}
+While there were early attempts at different names for adhoc networks in UAVs like AUGNET \cite{augnet} and UAVNET \cite{uavnet}, the name FANET seems to be favoured. 
+
+FANETs come under more general adhoc networks called MANETs(Mobile Adhoc Networks) and VANETs(Vehicular Adhoc Networks). MANET is the most general of the both and the oldest. There have been MANET protocols and standards defined to an extent.
+\end{comment}
+
+\section{Motivation and the Current Work}
