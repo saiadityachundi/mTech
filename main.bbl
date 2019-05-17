@@ -1,11 +1,26 @@
 \begin{thebibliography}{}
 
+\bibitem[Akyildiz et~al., 2005]{meshsurvey}
+Akyildiz, I.~F., Wang, X., and Wang, W. (2005).
+\newblock Wireless mesh networks: a survey.
+\newblock {\em Computer Networks}, 47(4):445 -- 487.
+
+\bibitem[Alm, 2019]{thread}
+Alm, A. (2019).
+\newblock Internet of things mesh network : Using the thread networking
+  protocol.
+
 \bibitem[{Brown} et~al., 2004]{augnet}
 {Brown}, T., {Argrow}, B., {Dixon}, C., {Doshi}, S., {Thekkekunnel}, R.-G., and
   {Henkel}, D. (2004).
 \newblock Ad hoc uav ground network (augnet).
 \newblock {\em AIAA 3rd "Unmanned Unlimited" Technical Conference, Workshop and
   Exhibit}.
+
+\bibitem[Darroudi and Gomez, 2017]{blemesh}
+Darroudi, S.~M. and Gomez, C. (2017).
+\newblock Bluetooth low energy mesh networks: A survey.
+\newblock {\em Sensors}, 17(7).
 
 \bibitem[{Das} et~al., 2015]{preagr}
 {Das}, J., {Cross}, G., {Qu}, C., {Makineni}, A., {Tokekar}, P., {Mulgaonkar},
@@ -33,6 +48,12 @@ Dunbabin, M. and Marques, L. (2012).
 \newblock Survey of important issues in uav communication networks.
 \newblock {\em IEEE Communications Surveys Tutorials}, 18(2):1123--1152.
 
+\bibitem[Hiertz et~al., 2010]{802.11s}
+Hiertz, G., Denteneer, T., Max, S., Taori, R., Cardona, J., Berlemann, L., and
+  Walke, B. (2010).
+\newblock Ieee 802.11s: the wlan mesh standard.
+\newblock {\em Wireless Communications, IEEE}, 17:104 -- 111.
+
 \bibitem[{Morgenthaler} et~al., 2012]{uavnet}
 {Morgenthaler}, S., {Braun}, T., {Zhao}, Z., {Staub}, T., and {Anwander}, M.
   (2012).
@@ -45,6 +66,18 @@ Puri, A. (2005).
 \newblock A survey of unmanned aerial vehicles (uavs) for traffic surveillance.
 \newblock {\em University of South Florida - internal report}.
 
+\bibitem[{Sun} and {Zhang}, 2009]{zigbee}
+{Sun}, J. and {Zhang}, X. (2009).
+\newblock Study of zigbee wireless mesh networks.
+\newblock In {\em 2009 Ninth International Conference on Hybrid Intelligent
+  Systems}, volume~2, pages 264--267.
+
+\bibitem[{Unwala} et~al., 2018]{thread2}
+{Unwala}, I., {Taqvi}, Z., and {Lu}, J. (2018).
+\newblock Thread: An iot protocol.
+\newblock In {\em 2018 IEEE Green Technologies Conference (GreenTech)}, pages
+  161--167.
+
 \bibitem[Whitehead and Hugenholtz, 2014]{remsen}
 Whitehead, K. and Hugenholtz, C.~H. (2014).
 \newblock Remote sensing of the environment with small unmanned aircraft
@@ -56,6 +89,12 @@ Yang~Y, Polycarpou~MM, M.~A. (2007).
 \newblock Multi-uav cooperative search using an opportunistic learning method.
 \newblock {\em Journal of Dynamic Systems, Measuremnet, and Control.}, pages
   716--728.
+
+\bibitem[{Yassein} et~al., 2016]{zwave}
+{Yassein}, M.~B., {Mardini}, W., and {Khalil}, A. (2016).
+\newblock Smart homes automation using z-wave protocol.
+\newblock In {\em 2016 International Conference on Engineering MIS (ICEMIS)},
+  pages 1--6.
 
 \bibitem[{Zeng} et~al., 2019]{celsur}
 {Zeng}, Y., {Lyu}, J., and {Zhang}, R. (2019).

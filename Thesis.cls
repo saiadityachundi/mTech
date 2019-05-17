@@ -182,7 +182,7 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{A ROS based communication architecture for UAV swarms} % Your thesis title - this is used in the title and abstract
+\thesistitle{A communication architecture for UAV swarms} % Your thesis title - this is used in the title and abstract
 %-------------------------------------------------  
 \supervisor{Ketan Rajawat} % You supervisor's name - this is used in the title page
 %-------------------------------------------------   
