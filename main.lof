@@ -1,4 +1,6 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Possible network configurations for communications in UAVs\relax }}{3}{figure.caption.17}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Possible network configurations for communications in UAVs\relax }}{3}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces A comparison of 802.11 wlan and 802.11s mesh networks\relax }}{7}{figure.caption.22}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A comparison of 802.11 wlan and 802.11s mesh networks\relax }}{7}{figure.caption.17}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces open80211s stack on Linux kernel\relax }}{9}{figure.caption.20}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces logo of OpenWrt\relax }}{10}{figure.caption.22}

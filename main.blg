@@ -3,44 +3,50 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: apalike.bst
 Database file #1: Bibliography.bib
-You've used 18 entries,
+Warning--entry type for "olsr" isn't style-file defined
+--line 66 of file Bibliography.bib
+Warning--empty journal in batman
+Warning--empty booktitle in dsr
+Warning--empty journal in meshfig
+You've used 29 entries,
             1935 wiz_defined-function locations,
-            581 strings with 6737 characters,
-and the built_in function-call counts, 8022 in all, are:
-= -- 774
-> -- 341
-< -- 14
-+ -- 118
-- -- 116
-* -- 666
-:= -- 1348
-add.period$ -- 53
-call.type$ -- 18
-change.case$ -- 148
-chr.to.int$ -- 18
-cite$ -- 18
-duplicate$ -- 317
-empty$ -- 561
-format.name$ -- 142
-if$ -- 1633
+            648 strings with 8594 characters,
+and the built_in function-call counts, 13089 in all, are:
+= -- 1295
+> -- 492
+< -- 31
++ -- 170
+- -- 164
+* -- 1049
+:= -- 2134
+add.period$ -- 85
+call.type$ -- 29
+change.case$ -- 227
+chr.to.int$ -- 29
+cite$ -- 32
+duplicate$ -- 547
+empty$ -- 948
+format.name$ -- 213
+if$ -- 2715
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 92
-num.names$ -- 54
-pop$ -- 141
+missing$ -- 27
+newline$ -- 144
+num.names$ -- 87
+pop$ -- 228
 preamble$ -- 1
-purify$ -- 148
+purify$ -- 227
 quote$ -- 0
-skip$ -- 252
+skip$ -- 443
 stack$ -- 0
-substring$ -- 558
-swap$ -- 70
-text.length$ -- 7
+substring$ -- 972
+swap$ -- 138
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
-warning$ -- 0
-while$ -- 56
+type$ -- 174
+warning$ -- 3
+while$ -- 96
 width$ -- 0
-write$ -- 232
+write$ -- 372
+(There were 4 warnings)

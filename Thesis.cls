@@ -301,12 +301,12 @@
     {\centering{\huge{\textit{Abstract}}} \par}
     \bigskip
     \HRule \\[0.4cm] % Horizontal line
-		Name of the student:	 \textbf{\authornames}	\hfill Roll No: \textbf{Roll No.} \\
-		Degree for which submitted:  \textbf{M.Tech.} \hfill Department:  \textbf{Electrical Engineering} \\
-		Thesis title: \textbf{\@title}\\
-		Thesis supervisor:  \textbf{\supname}\\
-		Month and year of thesis submission: \textbf{{\large \today}\\[0.4cm] }
-		\HRule \\[1.5cm] % Horizontal line	
+%		Name of the student:	 \textbf{\authornames}	\hfill Roll No: \textbf{Roll No.} \\
+%		Degree for which submitted:  \textbf{M.Tech.} \hfill Department:  %\textbf{Electrical Engineering} \\
+%		Thesis title: \textbf{\@title}\\
+%		Thesis supervisor:  \textbf{\supname}\\
+%		Month and year of thesis submission: \textbf{{\large \today}\\[0.4cm] }
+%		\HRule \\[1.5cm] % Horizontal line	
 	
   \end{flushleft}
 }

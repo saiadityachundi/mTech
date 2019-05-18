@@ -10,12 +10,28 @@ Alm, A. (2019).
 \newblock Internet of things mesh network : Using the thread networking
   protocol.
 
+\bibitem[Bose et~al., 2001]{130}
+Bose, P., Morin, P., Stojmenovi\'{c}, I., and Urrutia, J. (2001).
+\newblock Routing with guaranteed delivery in ad hoc wireless networks.
+\newblock {\em Wirel. Netw.}, 7(6):609--616.
+
 \bibitem[{Brown} et~al., 2004]{augnet}
 {Brown}, T., {Argrow}, B., {Dixon}, C., {Doshi}, S., {Thekkekunnel}, R.-G., and
   {Henkel}, D. (2004).
 \newblock Ad hoc uav ground network (augnet).
 \newblock {\em AIAA 3rd "Unmanned Unlimited" Technical Conference, Workshop and
   Exhibit}.
+
+\bibitem[{Chakeres} and {Belding-Royer}, 2004]{aodv}
+{Chakeres}, I.~D. and {Belding-Royer}, E.~M. (2004).
+\newblock Aodv routing protocol implementation design.
+\newblock In {\em 24th International Conference on Distributed Computing
+  Systems Workshops, 2004. Proceedings.}, pages 698--703.
+
+\bibitem[Clausen and Jacquet, 2003]{olsr}
+Clausen, T. and Jacquet, P. (2003).
+\newblock Optimized link state routing protocol (olsr).
+  https://www.rfc-editor.org/info/rfc3626.
 
 \bibitem[Darroudi and Gomez, 2017]{blemesh}
 Darroudi, S.~M. and Gomez, C. (2017).
@@ -48,11 +64,39 @@ Dunbabin, M. and Marques, L. (2012).
 \newblock Survey of important issues in uav communication networks.
 \newblock {\em IEEE Communications Surveys Tutorials}, 18(2):1123--1152.
 
+\bibitem[{Haas}, 1997]{zrp}
+{Haas}, Z.~J. (1997).
+\newblock A new routing protocol for the reconfigurable wireless networks.
+\newblock In {\em Proceedings of ICUPC 97 - 6th International Conference on
+  Universal Personal Communications}, volume~2, pages 562--566 vol.2.
+
 \bibitem[Hiertz et~al., 2010]{802.11s}
 Hiertz, G., Denteneer, T., Max, S., Taori, R., Cardona, J., Berlemann, L., and
   Walke, B. (2010).
 \newblock Ieee 802.11s: the wlan mesh standard.
 \newblock {\em Wireless Communications, IEEE}, 17:104 -- 111.
+
+\bibitem[Johnson et~al., 2019]{batman}
+Johnson, D., Ntlatlapa, N., and Aichele, C. (2019).
+\newblock Simple pragmatic approach to mesh routing using batman.
+
+\bibitem[Johnson et~al., 2001]{dsr}
+Johnson, D.~B., Maltz, D.~A., and Broch, J. (2001).
+\newblock Ad hoc networking.
+\newblock chapter DSR: The Dynamic Source Routing Protocol for Multihop
+  Wireless Ad Hoc Networks, pages 139--172. Addison-Wesley Longman Publishing
+  Co., Inc., Boston, MA, USA.
+
+\bibitem[Lam and Qian, 2013]{131}
+Lam, S.~S. and Qian, C. (2013).
+\newblock Geographic routing in d-dimensional spaces with guaranteed delivery
+  and low stretch.
+\newblock {\em IEEE/ACM Trans. Netw.}, 21(2):663--677.
+
+\bibitem[{Liu} and {Wu}, 2009]{132}
+{Liu}, C. and {Wu}, J. (2009).
+\newblock Efficient geometric routing in three dimensional ad hoc networks.
+\newblock In {\em IEEE INFOCOM 2009}, pages 2751--2755.
 
 \bibitem[{Morgenthaler} et~al., 2012]{uavnet}
 {Morgenthaler}, S., {Braun}, T., {Zhao}, Z., {Staub}, T., and {Anwander}, M.
@@ -60,6 +104,26 @@ Hiertz, G., Denteneer, T., Max, S., Taori, R., Cardona, J., Berlemann, L., and
 \newblock Uavnet: A mobile wireless mesh network using unmanned aerial
   vehicles.
 \newblock In {\em 2012 IEEE Globecom Workshops}, pages 1603--1608.
+
+\bibitem[{Park} and {Corson}, 1997]{tora}
+{Park}, V.~D. and {Corson}, M.~S. (1997).
+\newblock A highly adaptive distributed routing algorithm for mobile wireless
+  networks.
+\newblock In {\em Proceedings of INFOCOM '97}, volume~3, pages 1405--1413
+  vol.3.
+
+\bibitem[Perkins and Bhagwat, 1994]{dsdv}
+Perkins, C.~E. and Bhagwat, P. (1994).
+\newblock Highly dynamic destination-sequenced distance-vector routing (dsdv)
+  for mobile computers.
+\newblock In {\em Proceedings of the Conference on Communications
+  Architectures, Protocols and Applications}, SIGCOMM '94, pages 234--244, New
+  York, NY, USA. ACM.
+
+\bibitem[Portmann, 2006]{meshfig}
+Portmann, M. (2006).
+\newblock Wireless mesh networks for public safety and disaster recovery
+  applications.
 
 \bibitem[Puri, 2005]{trasur}
 Puri, A. (2005).
