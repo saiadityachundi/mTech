@@ -18,4 +18,5 @@
 \contentsline {subsection}{\numberline {2.1.2}open80211s}{9}{subsection.19}
 \contentsline {section}{\numberline {2.2}Hardware}{9}{section.21}
 \contentsline {subsection}{\numberline {2.2.1}OpenWrt}{10}{subsection.23}
-\contentsline {chapter}{Bibliography}{11}{dummy.24}
+\contentsline {subsection}{\numberline {2.2.2}Wireless routers}{11}{subsection.25}
+\contentsline {chapter}{Bibliography}{12}{dummy.26}
