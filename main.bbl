@@ -1,7 +1,14 @@
 \begin{thebibliography}{}
 
 \bibitem[ope, ]{openwrt}
+openwrt project. https://openwrt.org/.
+\newblock Accessed: 2019-05-20.
 
+\bibitem[{Abolhasan} et~al., 2009]{batcom}
+{Abolhasan}, M., {Hagelstein}, B., and {Wang}, J. C.~. (2009).
+\newblock Real-world performance of current proactive multi-hop mesh protocols.
+\newblock In {\em 2009 15th Asia-Pacific Conference on Communications}, pages
+  44--47.
 
 \bibitem[Akyildiz et~al., 2005]{meshsurvey}
 Akyildiz, I.~F., Wang, X., and Wang, W. (2005).

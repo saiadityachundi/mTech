@@ -10,45 +10,45 @@ Warning--empty year in openwrt
 Warning--empty journal in batman
 Warning--empty booktitle in dsr
 Warning--empty journal in meshfig
-You've used 30 entries,
+You've used 31 entries,
             1935 wiz_defined-function locations,
-            649 strings with 8601 characters,
-and the built_in function-call counts, 13268 in all, are:
-= -- 1312
-> -- 492
-< -- 31
-+ -- 170
-- -- 164
-* -- 1062
-:= -- 2158
-add.period$ -- 86
-call.type$ -- 30
-change.case$ -- 231
-chr.to.int$ -- 30
-cite$ -- 36
-duplicate$ -- 557
-empty$ -- 966
-format.name$ -- 213
-if$ -- 2750
+            656 strings with 8842 characters,
+and the built_in function-call counts, 13785 in all, are:
+= -- 1366
+> -- 510
+< -- 32
++ -- 176
+- -- 170
+* -- 1098
+:= -- 2241
+add.period$ -- 90
+call.type$ -- 31
+change.case$ -- 240
+chr.to.int$ -- 31
+cite$ -- 37
+duplicate$ -- 582
+empty$ -- 1005
+format.name$ -- 220
+if$ -- 2865
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 27
-newline$ -- 147
-num.names$ -- 87
-pop$ -- 238
+missing$ -- 28
+newline$ -- 153
+num.names$ -- 90
+pop$ -- 246
 preamble$ -- 1
-purify$ -- 232
+purify$ -- 240
 quote$ -- 0
-skip$ -- 449
+skip$ -- 467
 stack$ -- 0
-substring$ -- 985
-swap$ -- 138
-text.length$ -- 16
+substring$ -- 1017
+swap$ -- 146
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 180
+type$ -- 186
 warning$ -- 5
-while$ -- 96
+while$ -- 100
 width$ -- 0
-write$ -- 378
+write$ -- 394
 (There were 6 warnings)

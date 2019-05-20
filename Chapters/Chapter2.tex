@@ -51,9 +51,9 @@ open80211s stack is an open source implementation of the 802.11s standard on the
 	\caption*{source: G. R. Hiertz et al., "IEEE 802.11s: The WLAN Mesh Standard," in IEEE Wireless Communications, February 2010.}
 \end{figure}
 
-\section{Hardware}
+\section{Implementation}
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[scale=1]{Pictures/openwrt_logo.jpg}
 	\caption{logo of OpenWrt}
@@ -62,12 +62,12 @@ open80211s stack is an open source implementation of the 802.11s standard on the
 	\caption*{source: https://openwrt.org/}
 \end{figure}
 
-In this section, we shall look at the hardware used for realizing an 802.11s mesh network. As we mentioned in the last section, the open80211s stack can be implemented on most linux machines with legacy wireless cards which are compatible with the standard mac80211 wireless stack. There is a lack of embedded wireless hardware for building 802.11s mesh networks. We wanted to build 802.11s mesh networks with easily available commercial 802.11 legacy hardware and we found a solution with OpenWrt.
+In this section, we shall look at the hardware used as well as how we actually implemented an 802.11s mesh network. As we mentioned in the last section, the open80211s stack can be implemented on most linux machines with legacy wireless cards which are compatible with the standard mac80211 wireless stack. There is a lack of embedded wireless hardware for building 802.11s mesh networks. We wanted to build 802.11s mesh networks with easily available commercial 802.11 legacy hardware and we found a solution with OpenWrt.
 
 \subsection{OpenWrt}
 Openwrt \cite{openwrt} is an embedded operating system based on linux kernel, meant for wireless routers. Basically, it is an open source project in which the community releases ports of the operating system for specific wireless routers, whose wireless hardware is compatible and whose memory and firmware allow reflashing the default firmware, these devices come with. Since, not all wireless routers can be flashed with openwrt, we would have to choose from a list of openwrt compatible hardware.
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.6]{Pictures/ssh4.png}
 	\caption{An ssh shell on an openwrt flashed router}
@@ -75,12 +75,89 @@ Openwrt \cite{openwrt} is an embedded operating system based on linux kernel, me
 	\captionsetup{font={footnotesize,bf,it}}
 \end{figure}
 
-Once we obtain an openwrt compatible wireless router, we would have to flash the router with an image of the openwrt operating system. Typically, different routers have different instructions for flashing the image and are generally listed along with other details on the device page, specific to the router. Once the router is flashed with openwrt, the device will be running a full-fledged operating system based on linux kernel, albeit one with limited capabilities. When we power on the router, it boots up into openwrt with a default ip address of 192.168.1.1/24. If we connect the router to a host machine via ethernet and \textit{ssh} into the said ip address, we would log into the openwrt with a secure shell. Figure \ref{fig: openwrt-shell} shows a terminal on a wireless router, flashed with openwrt and logged into it via ssh, from an host pc connected via ethernet.
+Once we obtain an openwrt compatible wireless router, we would have to flash the router with an image of the openwrt operating system. Typically, different routers have different instructions for flashing the image and are generally listed along with other details on the device page, specific to the router. Once the router is flashed with openwrt, the device will be running a full-fledged operating system based on linux kernel, albeit one with limited capabilities. When we power on the router, it boots up into openwrt with a default ip address of 192.168.1.1/24. If we connect the router to a host machine via ethernet and \textit{ssh} into the said ip address, we would log into the openwrt with a secure shell. Figure \ref{fig: openwrt-shell} shows a terminal on a wireless router, flashed with openwrt and logged in via ssh, from an host pc connected to it by ethernet.
 
+\subsection{Hardware}
+Let us now look at the actual routers we have used to realize the mesh networks. We have tested the entire setup with two wireless routers. Both the routers are compatible with openwrt and were decided upon going through the list of supported hardware on the webpage \url{https://openwrt.org/toh/start}.
 
+\subsubsection{Tp-Link WR902AC}
 
-\subsection{Wireless routers}
-We have tested two different routers with openwrt. Both are routers are supported by the operating system, as listed on their website.
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[scale=0.3]{Pictures/tplink12.png}
+	\end{subfigure}%
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[scale=0.3]{Pictures/tplink2.png}
+	\end{subfigure}
+	\caption{Tp-Link WR902AC}
+	\label{fig: tplink}
+\end{figure}
+
+The first router is Tp-Link TL-WR902AC v3. Its device page on openwrt can be found at \url{https://openwrt.org/toh/hwdata/tp-link/tp-link_tl-wr902ac_v3}. The router has a 10/100 Mbps ethernet port, a 2.0 USB port and micro usb port. It needs externel power supply of 5V/2A via the micro 
+USB port. The default firmware the device comes with supports the standards IEEE 802.11ac/n/a @ 5GHz and IEEE 802.11b/g/n @ 2.4 GHz, making it a dual band router. It can support wireless speeds up to 300 Mbps @ 2.4GHz and 433 Mbps @ 5GHz. The transmit power is $<$20dBm @ 2.4GHz and $<$23dBm @ 5GHz. The openwrt port for the device doesn't support the device operating at 5GHz.
+
+\subsubsection{Alfa Tube 2H}
+The second router we tested is Alfa Tube 2H. The corresponding device page on openwrt can be found at \url{https://openwrt.org/toh/hwdata/alfa_network/alfa_network_tube2h}. This router too has a 10/100 Mbps ethernet port. It also has an N-type male antenna port to connect external antennas. It supports passive \textit{Power Over Ethernet}(POE) and is powered using ethernet port itself. Unlike the Tp-Link device, it is a single band router, which supports IEEE 802.11b/g/n, operating at 2.4GHz. It can support wireless speeds up to 150Mbps. Its transmit power can go upto 500mW or ~27dBm. The Alfa Tube 2H offers two main advantages as compared to WR902AC. First, its transmit can go upto 27dBm whereas the WR902AC can only support a transmit power upto 20dBm. This translates to higher range for communication. Second, unlike the WR902AC, the Tube 2H supports external antennas which can further increase the range of the device.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[scale=0.55]{Pictures/tube2h2.jpg}
+	\end{subfigure}%
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[scale=0.35]{Pictures/tube2h.jpg}
+	\end{subfigure}
+	\caption{Alfa Tube 2H}
+	\label{fig: tube2h}
+\end{figure}
+
+\subsection{Network Configuration}
+Since Openwrt is a full fledged operating system based on the linux kernel, it offers tremendous flexibility in configuring the wireless devices for the network. The directory structure of the system is quite similar to normal linux distributions except a few minor changes. For instance, all the configuration files for different subsystems can be found in the folder \textit{/etc/config}. Changing these files and restarting the respective services, or the entire system would change the configuration of the system.
+
+To connect the router to a wifi access point, we would first have create a device interface in \textit{client} mode in \textit{/etc/config/wireless}. We would also have to specify the \textit{ssid} of the \textit{AP} and provide authentication, if any. Then, we would have to create a network interface for the above created device, assign an IP address to it in case of static address or specify DHCP etc., in \textit{/etc/config/network}. Restarting the system or the network services, then , would connect the router to the specified \textit{AP}.
+
+\subsubsection{LUCI}
+Openwrt also provides an easy gui interface to do the network configuration. The interface is called LUCI, which can be accessed by typing in \textit{https://$<$IP address of the router$>$}, in a web browser, of the host pc, connected to the router, via ethernet. The interface can be used to connect the router to an access point, or make the router an access point and share its network. However, luci has limited functionality and cannot be used to configure 802.11s mesh networks. We would have to do that by manually changing the configuration files. Figure \ref{fig: luci} shows the luci interface opened in a web browser.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.3]{Pictures/luci2.png}
+	\caption{LUCI web interface for configuring openwrt routers}
+	\label{fig: luci}
+	\captionsetup{font={footnotesize,bf,it}}
+\end{figure}
+
+\subsubsection{802.11s mesh configuration}
+After the routers are flashed with an image of openwrt and booted up, they do not have the capability of supporting 802.11s mesh by default. Some setup and configuration is needed to implement 802.11s on these devices. First, we connect the router to the internet by connecting it to any wifi access point, via luci. Next, the package \textit{wpad-mini} which is installed by default should be removed and the package \textit{wpad-mesh} needs to be installed. This can be done by using the default package manager of openwrt, opkg.
+
+Now, we could implement 802.11s on these routers. We create a device interface in mesh mode, specify the name of the mesh network in wireless configuration file. Then, we create a network interface for the mesh interface in network configuration file. In our case, we decided to use static ip addresses for the routers with the network address 192.168.1.0 and a subnet mask of 24. So, the ip addresses assigned to different routers are of the form 192.168.1.xxx.
+
+After the setup, if two are more routers with the same configuration, but different ip addresses are powered on, they should be forming a mesh network among themselves. This can be verified by connecting one of the routers to a host pc, \textit{sshing} into the router and pinging the other routers. The ping would be getting responses from the other routers.
+
+\subsubsection{Routing protocols}
+As we have noted in an earlier section, the standard 802.11s allows different routing protocols to be used on top of the 802.11 MAC layer, even though it defines a default routing protocol, HWMP. While it is theoretically possible to implement a custom protocol, there are a few routing protocols with open source implementations one can readily use. Among them the protocols BATMAN and OLSR are popular and have implementations for linux as well. Openwrt supports both the protocols and documents how to configure the 802.11s mesh to use these protocols. In our case, we have used BATMAN as the routing protocol as it is shown that BATMAN outperforms OLSR in real world scenarios \cite{batcom}.
+
+\subsubsection{Mesh networks among the host machines}
+In the last chapter, we saw how we implemented 802.11s mesh networks on commercially available wireless routers. In the end after everything is configured, we would just power on the routers and a mesh network would be established among them. But, we would not just like to create a mesh network among the routers themselves, but would like to create mesh networks among the machines to which these routers are connected.
+
+The routers mainly have two interfaces within them, the ethernet interface and the wireless interface. The ethernet interface may be connected to a host machine, while the mesh network is formed on the wireless interface. In case we want to create a mesh network among the host machines themselves, we would need to have a way to share the mesh network on the wireless interface with the ethernet interface. For this, we bridge both the wireless and the ethernet interface. Bridging both the interfaces creates a single logical network interface. Though there are two device interfaces, there would only be one logical network interface after bridging, to which we would assign the IP address. Thus, bridging enables mesh networks among host machines themselves as long as they are connected to the so configured mesh routers. Figure \ref{fig: meshNetwork} illustrates the bridging of the wireless and ethernet interfaces in routers, where they established a mesh network among themselves and each of them is connected to a host machine via the ethernet port.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{Pictures/meshNetwork.png}
+	\caption{Mesh architecture with bridging of wireless and ethernet interfaces in routers}
+	\label{fig: meshNetwork}
+	\captionsetup{font={footnotesize,bf,it}}
+\end{figure}
+
+\section{Integration with ROS}
+One of the motivations of this work is to integrate the communication architecture into ROS. ROS is quite a flexible framework allowing to run it on multiple machines pretty easily. ROS fits well in the application layer in the traditional OSI layers and uses TCP/IP for sending and receiving messages on ROS topics and services. Thus, as long as a TCP/IP stack is installed on the machines and network between them is estabished, it is trivial to setup ROS on these machines. The standard way to do it is to specify one of the machines as a ROS master. This is specified by setting the environmental variable ROS_MASTER_URI to the IP address of the designated master on all the other machines. But, this setup establishes a star configuration in application layer, that is ROS. 
+
 
 
 

@@ -5,7 +5,7 @@
 \contentsline {chapter}{Acknowledgements}{iii}{dummy.4}
 \vspace {1em}
 \contentsline {chapter}{Contents}{iv}{dummy.5}
-\contentsline {chapter}{List of Figures}{v}{dummy.7}
+\contentsline {chapter}{List of Figures}{vi}{dummy.7}
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.9}
 \contentsline {section}{\numberline {1.1}Rise of Unmanned Aerial Vehicles}{1}{section.10}
@@ -16,7 +16,15 @@
 \contentsline {section}{\numberline {2.1}IEEE 802.11s}{6}{section.16}
 \contentsline {subsection}{\numberline {2.1.1}Routing in 802.11s}{7}{subsection.18}
 \contentsline {subsection}{\numberline {2.1.2}open80211s}{9}{subsection.19}
-\contentsline {section}{\numberline {2.2}Hardware}{9}{section.21}
+\contentsline {section}{\numberline {2.2}Implementation}{9}{section.21}
 \contentsline {subsection}{\numberline {2.2.1}OpenWrt}{10}{subsection.23}
-\contentsline {subsection}{\numberline {2.2.2}Wireless routers}{11}{subsection.25}
-\contentsline {chapter}{Bibliography}{12}{dummy.26}
+\contentsline {subsection}{\numberline {2.2.2}Hardware}{11}{subsection.25}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Tp-Link WR902AC}{11}{subsubsection.26}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Alfa Tube 2H}{12}{subsubsection.28}
+\contentsline {subsection}{\numberline {2.2.3}Network Configuration}{13}{subsection.30}
+\contentsline {subsubsection}{\numberline {2.2.3.1}LUCI}{13}{subsubsection.31}
+\contentsline {subsubsection}{\numberline {2.2.3.2}802.11s mesh configuration}{13}{subsubsection.33}
+\contentsline {subsubsection}{\numberline {2.2.3.3}Routing protocols}{15}{subsubsection.34}
+\contentsline {subsubsection}{\numberline {2.2.3.4}Mesh networks among the host machines}{15}{subsubsection.35}
+\contentsline {section}{\numberline {2.3}Integration with ROS}{16}{section.37}
+\contentsline {chapter}{Bibliography}{17}{dummy.38}
