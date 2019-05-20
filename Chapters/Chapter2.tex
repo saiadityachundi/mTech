@@ -156,8 +156,11 @@ The routers mainly have two interfaces within them, the ethernet interface and t
 \end{figure}
 
 \section{Integration with ROS}
-One of the motivations of this work is to integrate the communication architecture into ROS. ROS is quite a flexible framework allowing to run it on multiple machines pretty easily. ROS fits well in the application layer in the traditional OSI layers and uses TCP/IP for sending and receiving messages on ROS topics and services. Thus, as long as a TCP/IP stack is installed on the machines and network between them is estabished, it is trivial to setup ROS on these machines. The standard way to do it is to specify one of the machines as a ROS master. This is specified by setting the environmental variable ROS_MASTER_URI to the IP address of the designated master on all the other machines. But, this setup establishes a star configuration in application layer, that is ROS. 
+One of the motivations of this work is to integrate the communication architecture into ROS. ROS is quite a flexible framework allowing to run it on multiple machines pretty easily. ROS fits well in the application layer in the traditional OSI layers and uses TCP/IP for sending and receiving messages on ROS topics and services. Thus, as long as a TCP/IP stack is installed on the machines and network between them is estabished, it is trivial to setup ROS on these machines.
 
+The standard way to do it is to specify one of the machines as a ROS master. This is specified by setting the environmental variable ROS\_MASTER\_URI to the IP address of the designated master on all the other machines. But, this setup establishes a star configuration in application layer. When ROS is run on multiple machines the standard way, designating one of the machines as the ROS master, all the communication between nodes happen through the ROS master. So, when a node on one machine publishes a topic and another node subscribes to it, the data is actually being routed through the ROS master. This is very inefficient both bandwidth wise and latency wise. Thus, we implemented a multimaster version of ROS, where all the host machines will be running as a ROS master and still be able to access ros topics and services of the other masters.
+
+\subsection{multimaster\_fkie}
 
 
 
