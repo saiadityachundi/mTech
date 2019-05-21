@@ -103,7 +103,26 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Mesh architecture with bridging of wireless and ethernet interfaces in routers\relax }}{16}{figure.caption.36}}
 \newlabel{fig: meshNetwork}{{2.8}{16}{Mesh architecture with bridging of wireless and ethernet interfaces in routers\relax }{figure.caption.36}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Integration with ROS}{16}{section.37}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}multimaster\_fkie}{17}{subsection.38}}
+\citation{fkie1,fkie2}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces An illustration of ROS single master and multimaster setups\relax }}{17}{figure.caption.38}}
+\newlabel{fig: mastercomp}{{2.9}{17}{An illustration of ROS single master and multimaster setups\relax }{figure.caption.38}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Multimaster\_fkie}{17}{subsection.39}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1.1}master\_discovery}{17}{subsubsection.40}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1.2}master\_sync}{18}{subsubsection.41}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Long Range Communication Architecture}{19}{chapter.42}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{Chapter3}{{3}{19}{Long Range Communication Architecture}{chapter.42}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Hardware}{19}{section.43}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}RFD900X}{20}{subsection.44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces RFD900x along with antennas and FTDI cables\relax }}{20}{figure.caption.45}}
+\newlabel{fig: rfd900x}{{3.1}{20}{RFD900x along with antennas and FTDI cables\relax }{figure.caption.45}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.1}Peer to Peer Firmware}{21}{subsubsection.46}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces modems in peer to peer configuration\relax }}{21}{figure.caption.47}}
+\newlabel{fig: rfdpeer}{{3.2}{21}{modems in peer to peer configuration\relax }{figure.caption.47}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.2}Synchronous Mesh Firmware}{22}{subsubsection.48}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces modems in synchronous mesh configuration\relax }}{22}{figure.caption.49}}
+\newlabel{fig: rfdsync}{{3.3}{22}{modems in synchronous mesh configuration\relax }{figure.caption.49}{}}
 \citation{*}
 \bibstyle{apalike}
 \bibdata{Bibliography}
@@ -120,24 +139,26 @@
 \bibcite{envmon}{{11}{2012}{{Dunbabin and Marques}}{{}}}
 \bibcite{disman}{{12}{2017}{{{Erdelj} et~al.}}{{}}}
 \bibcite{lavgupta}{{13}{2016}{{{Gupta} et~al.}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{18}{dummy.39}}
-\newlabel{Bibliography}{{6}{18}{multimaster\_fkie}{dummy.39}{}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{23}{dummy.50}}
+\newlabel{Bibliography}{{6}{23}{Synchronous Mesh Firmware}{dummy.50}{}}
 \bibcite{zrp}{{14}{1997}{{Haas}}{{}}}
-\bibcite{802.11s}{{15}{2010}{{Hiertz et~al.}}{{}}}
-\bibcite{batman}{{16}{2019}{{Johnson et~al.}}{{}}}
-\bibcite{dsr}{{17}{2001}{{Johnson et~al.}}{{}}}
-\bibcite{131}{{18}{2013}{{Lam and Qian}}{{}}}
-\bibcite{132}{{19}{2009}{{{Liu} and {Wu}}}{{}}}
-\bibcite{uavnet}{{20}{2012}{{{Morgenthaler} et~al.}}{{}}}
-\bibcite{tora}{{21}{1997}{{{Park} and {Corson}}}{{}}}
-\bibcite{dsdv}{{22}{1994}{{Perkins and Bhagwat}}{{}}}
-\bibcite{meshfig}{{23}{2006}{{Portmann}}{{}}}
-\bibcite{trasur}{{24}{2005}{{Puri}}{{}}}
-\bibcite{zigbee}{{25}{2009}{{{Sun} and {Zhang}}}{{}}}
-\bibcite{thread2}{{26}{2018}{{{Unwala} et~al.}}{{}}}
-\bibcite{remsen}{{27}{2014}{{Whitehead and Hugenholtz}}{{}}}
-\bibcite{coosea}{{28}{2007}{{Yang~Y}}{{}}}
-\bibcite{zwave}{{29}{2016}{{{Yassein} et~al.}}{{}}}
-\bibcite{celsur}{{30}{2019}{{{Zeng} et~al.}}{{}}}
-\bibcite{fanets}{{31}{2013}{{\IeC {\.I}lker Bekmezci et~al.}}{{}}}
+\bibcite{fkie1}{{15}{2015}{{Hern\IeC {\'a}ndez~Juan and Herrero~Cotarelo}}{{}}}
+\bibcite{802.11s}{{16}{2010}{{Hiertz et~al.}}{{}}}
+\bibcite{batman}{{17}{2019}{{Johnson et~al.}}{{}}}
+\bibcite{dsr}{{18}{2001}{{Johnson et~al.}}{{}}}
+\bibcite{131}{{19}{2013}{{Lam and Qian}}{{}}}
+\bibcite{132}{{20}{2009}{{{Liu} and {Wu}}}{{}}}
+\bibcite{uavnet}{{21}{2012}{{{Morgenthaler} et~al.}}{{}}}
+\bibcite{tora}{{22}{1997}{{{Park} and {Corson}}}{{}}}
+\bibcite{dsdv}{{23}{1994}{{Perkins and Bhagwat}}{{}}}
+\bibcite{meshfig}{{24}{2006}{{Portmann}}{{}}}
+\bibcite{trasur}{{25}{2005}{{Puri}}{{}}}
+\bibcite{zigbee}{{26}{2009}{{{Sun} and {Zhang}}}{{}}}
+\bibcite{fkie2}{{27}{2016}{{Tiderko et~al.}}{{}}}
+\bibcite{thread2}{{28}{2018}{{{Unwala} et~al.}}{{}}}
+\bibcite{remsen}{{29}{2014}{{Whitehead and Hugenholtz}}{{}}}
+\bibcite{coosea}{{30}{2007}{{Yang~Y}}{{}}}
+\bibcite{zwave}{{31}{2016}{{{Yassein} et~al.}}{{}}}
+\bibcite{celsur}{{32}{2019}{{{Zeng} et~al.}}{{}}}
+\bibcite{fanets}{{33}{2013}{{\IeC {\.I}lker Bekmezci et~al.}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers

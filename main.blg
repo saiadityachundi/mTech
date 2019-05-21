@@ -4,51 +4,52 @@ The top-level auxiliary file: main.aux
 The style file: apalike.bst
 Database file #1: Bibliography.bib
 Warning--entry type for "olsr" isn't style-file defined
---line 66 of file Bibliography.bib
+--line 77 of file Bibliography.bib
 Warning--to sort, need author or key in openwrt
 Warning--empty year in openwrt
 Warning--empty journal in batman
 Warning--empty booktitle in dsr
 Warning--empty journal in meshfig
-You've used 31 entries,
+Warning--can't use both author and editor fields in fkie2
+You've used 33 entries,
             1935 wiz_defined-function locations,
-            656 strings with 8842 characters,
-and the built_in function-call counts, 13785 in all, are:
-= -- 1366
-> -- 510
-< -- 32
-+ -- 176
-- -- 170
-* -- 1098
-:= -- 2241
-add.period$ -- 90
-call.type$ -- 31
-change.case$ -- 240
-chr.to.int$ -- 31
-cite$ -- 37
-duplicate$ -- 582
-empty$ -- 1005
-format.name$ -- 220
-if$ -- 2865
+            670 strings with 9261 characters,
+and the built_in function-call counts, 14634 in all, are:
+= -- 1453
+> -- 541
+< -- 34
++ -- 188
+- -- 180
+* -- 1163
+:= -- 2382
+add.period$ -- 96
+call.type$ -- 33
+change.case$ -- 255
+chr.to.int$ -- 33
+cite$ -- 40
+duplicate$ -- 617
+empty$ -- 1062
+format.name$ -- 234
+if$ -- 3039
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 153
-num.names$ -- 90
-pop$ -- 246
+missing$ -- 30
+newline$ -- 163
+num.names$ -- 96
+pop$ -- 261
 preamble$ -- 1
-purify$ -- 240
+purify$ -- 255
 quote$ -- 0
-skip$ -- 467
+skip$ -- 496
 stack$ -- 0
-substring$ -- 1017
-swap$ -- 146
-text.length$ -- 17
+substring$ -- 1075
+swap$ -- 157
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 186
-warning$ -- 5
-while$ -- 100
+type$ -- 196
+warning$ -- 6
+while$ -- 107
 width$ -- 0
-write$ -- 394
-(There were 6 warnings)
+write$ -- 422
+(There were 7 warnings)

@@ -80,6 +80,12 @@ Dunbabin, M. and Marques, L. (2012).
 \newblock In {\em Proceedings of ICUPC 97 - 6th International Conference on
   Universal Personal Communications}, volume~2, pages 562--566 vol.2.
 
+\bibitem[Hernández~Juan and Herrero~Cotarelo, 2015]{fkie1}
+Hernández~Juan, S. and Herrero~Cotarelo, F. (2015).
+\newblock Multi-master ros systems.
+\newblock Technical report, Institut de Robòtica i Informàtica Industrial,
+  Barcelona, Spain.
+
 \bibitem[Hiertz et~al., 2010]{802.11s}
 Hiertz, G., Denteneer, T., Max, S., Taori, R., Cardona, J., Berlemann, L., and
   Walke, B. (2010).
@@ -145,6 +151,12 @@ Puri, A. (2005).
 \newblock Study of zigbee wireless mesh networks.
 \newblock In {\em 2009 Ninth International Conference on Hybrid Intelligent
   Systems}, volume~2, pages 264--267.
+
+\bibitem[Tiderko et~al., 2016]{fkie2}
+Tiderko, A., Hoeller, F., and R{\"o}hling, T. (2016).
+\newblock {\em The ROS Multimaster Extension for Simplified Deployment of
+  Multi-Robot Systems}, pages 629--650.
+\newblock Springer International Publishing, Cham.
 
 \bibitem[{Unwala} et~al., 2018]{thread2}
 {Unwala}, I., {Taqvi}, Z., and {Lu}, J. (2018).

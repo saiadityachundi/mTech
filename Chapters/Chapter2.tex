@@ -143,7 +143,7 @@ After the setup, if two are more routers with the same configuration, but differ
 As we have noted in an earlier section, the standard 802.11s allows different routing protocols to be used on top of the 802.11 MAC layer, even though it defines a default routing protocol, HWMP. While it is theoretically possible to implement a custom protocol, there are a few routing protocols with open source implementations one can readily use. Among them the protocols BATMAN and OLSR are popular and have implementations for linux as well. Openwrt supports both the protocols and documents how to configure the 802.11s mesh to use these protocols. In our case, we have used BATMAN as the routing protocol as it is shown that BATMAN outperforms OLSR in real world scenarios \cite{batcom}.
 
 \subsubsection{Mesh networks among the host machines}
-In the last chapter, we saw how we implemented 802.11s mesh networks on commercially available wireless routers. In the end after everything is configured, we would just power on the routers and a mesh network would be established among them. But, we would not just like to create a mesh network among the routers themselves, but would like to create mesh networks among the machines to which these routers are connected.
+In the last few sections, we saw how we implemented 802.11s mesh networks on commercially available wireless routers. In the end, after everything is configured, we would just power on the routers and a mesh network would be established among them. But, we would not just like to create a mesh network among the routers themselves, but would like to create mesh networks among the machines to which these routers are connected.
 
 The routers mainly have two interfaces within them, the ethernet interface and the wireless interface. The ethernet interface may be connected to a host machine, while the mesh network is formed on the wireless interface. In case we want to create a mesh network among the host machines themselves, we would need to have a way to share the mesh network on the wireless interface with the ethernet interface. For this, we bridge both the wireless and the ethernet interface. Bridging both the interfaces creates a single logical network interface. Though there are two device interfaces, there would only be one logical network interface after bridging, to which we would assign the IP address. Thus, bridging enables mesh networks among host machines themselves as long as they are connected to the so configured mesh routers. Figure \ref{fig: meshNetwork} illustrates the bridging of the wireless and ethernet interfaces in routers, where they established a mesh network among themselves and each of them is connected to a host machine via the ethernet port.
 
@@ -156,11 +156,56 @@ The routers mainly have two interfaces within them, the ethernet interface and t
 \end{figure}
 
 \section{Integration with ROS}
-One of the motivations of this work is to integrate the communication architecture into ROS. ROS is quite a flexible framework allowing to run it on multiple machines pretty easily. ROS fits well in the application layer in the traditional OSI layers and uses TCP/IP for sending and receiving messages on ROS topics and services. Thus, as long as a TCP/IP stack is installed on the machines and network between them is estabished, it is trivial to setup ROS on these machines.
+One of the motivations of this work is to integrate the communication architecture into ROS. ROS is quite a flexible framework allowing to run it on multiple machines pretty easily. ROS fits well in the application layer in the traditional OSI layers and uses TCP/IP for sending and receiving messages on ROS topics and services. Thus, as long as a TCP/IP stack is installed on the machines and the network between them is estabished, it is trivial to setup ROS on these machines.
 
-The standard way to do it is to specify one of the machines as a ROS master. This is specified by setting the environmental variable ROS\_MASTER\_URI to the IP address of the designated master on all the other machines. But, this setup establishes a star configuration in application layer. When ROS is run on multiple machines the standard way, designating one of the machines as the ROS master, all the communication between nodes happen through the ROS master. So, when a node on one machine publishes a topic and another node subscribes to it, the data is actually being routed through the ROS master. This is very inefficient both bandwidth wise and latency wise. Thus, we implemented a multimaster version of ROS, where all the host machines will be running as a ROS master and still be able to access ros topics and services of the other masters.
+The standard way to do it is to specify one of the machines as a ROS master. This is specified by setting the environmental variable ROS\_MASTER\_URI to the IP address of the designated master on all the other machines. But, this setup establishes a star configuration in application layer. When ROS is run on multiple machines in the standard way, designating one of the machines as the ROS master, all the communication between nodes is coordinated through the ROS master.  This is very inefficient both bandwidth wise and latency wise. Moreover, if, for whatever reason, the msaster node becomes unreachable, it would effect the entire system. Thus, it would be better to implement a multimaster version of ROS, where all the host machines will be running as a ROS master and still be able to access ros topics and services of the other masters as required.
 
-\subsection{multimaster\_fkie}
+\begin{comment}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{Pictures/singleMaster.png}
+	\caption{A standard ROS setup where all the nodes on different machines have to communicate with ROS master for coordination}
+	\label{fig: singleMaster}
+	\captionsetup{font={footnotesize,bf,it}}
+\end{figure}
+\end{comment}
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[scale=0.5]{Pictures/singleMaster.png}
+	\end{subfigure}%
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[scale=0.5]{Pictures/multimaster.png}
+	\end{subfigure}
+	\caption{An illustration of ROS single master and multimaster setups}
+	\label{fig: mastercomp}
+\end{figure}
+
+\subsection{Multimaster\_fkie}
+Multimaster\_fkie \cite{fkie1, fkie2} is a ROS package that allows running  different ROS masters on multiple machines and still enable access of required ROS topics and services among the different masters. It consists of two main nodes, \textit{master\_discovery} and \textit{master\_sync}. 
+
+\subsubsection{master\_discovery}
+The \textit{master\_discovery} node is responsible for discovery of other ros masters in the network. As we shall see shortly, it relies on multicast feature of IPV4 stack to do this. It periodically sends a multicast message to notify its presense on the network to other ros masters. Furthermore, it monitors incoming multicast messages to discover new masters and keep track of changes to their states.
+
+As stated above, the \textit{master\_discovery} node uses multicast addressing for its functionality. Since multicast feature is disabled by default on many systems, the feature needs to be enabled, if not.
+\begin{comment}
+This can be done by writing the character '0' to the file \textit{/proc/sys/net/ipv4/icmp\_echo\_ignore\_broadcasts}. This change is not persistent and is discarded while system reboot. To make this persistent over reboots, the file \textit{/etc/sysctl.conf} can be edited by adding the line, "net.ipv4.icmp\_echo\_ignore\_broadcasts=0".
+\end{comment}
+While all muticast enabled devices are added to the multicast group \textit{224.0.0.1}, by default, one can add all the machines to any feasible multicast group of their choice. After everything is configured, pinging the multicast address should give you replies from the other machines added to the same multicast group.
+
+Once the configuration is done on all the machines, we could run the \textit{master\_discovery} nodes on all the machines, with the parameter \textit{\_mcast\_group} set to the chosen multicast group. The node would be reporting the ros masters it discovers on the network. The node also provides a ros service \textit{list\_masters}, which upon running would produce a list of all the ros masters discovered.
+
+\subsubsection{master\_sync}
+While the \textit{master\_discovery} node discovers other masters, it is the \textit{master\_sync} node which handles the data transfer between the nodes of different masters. It is responsible for registering the topics and services of foreign masters on the local master. It can be configured to select which hosts, nodes, topics and services are to be synchronized. Thus, one could only select only the required topics and services and ignore all the remaining data.
+
+Once the configuration on all the machines is done, we would, first, run the \textit{master\_discover} node, with multicast group as the parameter and then, run the \textit{master\_sync} node on required machines. The \textit{master\_sync} node synchronizes the topics and services on the local machine i.e., if you run the \textit{master\_sync} node on machine1, the topics and services of the other masters can be accessed on machine1 only. To access machine1's topics and services on other machines, \textit{master\_sync} nodes have to be run on those machines.
+
+
+
+
 
 
 

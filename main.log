@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.1)  21 MAY 2019 02:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.1)  22 MAY 2019 03:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -874,7 +874,7 @@ LaTeX Info: Redefining \nameref on input line 32.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<Pictures/redlogo.jpg, id=113, 230.8625pt x 219.82124pt>
+<Pictures/redlogo.jpg, id=141, 230.8625pt x 219.82124pt>
 File: Pictures/redlogo.jpg Graphic file (type jpg)
 <use Pictures/redlogo.jpg>
 Package pdftex.def Info: Pictures/redlogo.jpg  used on input line 79.
@@ -961,12 +961,12 @@ Chapter 1.
 
 
 ] [2]
-<Pictures/star.png, id=237, 277.035pt x 423.5825pt>
+<Pictures/star.png, id=280, 277.035pt x 423.5825pt>
 File: Pictures/star.png Graphic file (type png)
 <use Pictures/star.png>
 Package pdftex.def Info: Pictures/star.png  used on input line 34.
 (pdftex.def)             Requested size: 124.6646pt x 190.61037pt.
-<Pictures/mesh.png, id=239, 544.0325pt x 463.7325pt>
+<Pictures/mesh.png, id=282, 544.0325pt x 463.7325pt>
 File: Pictures/mesh.png Graphic file (type png)
 <use Pictures/mesh.png>
 Package pdftex.def Info: Pictures/mesh.png  used on input line 40.
@@ -982,7 +982,7 @@ Chapter 2.
 ------------------------------------------------------------------------------
  2 The Mesh Architecture
 ------------------------------------------------------------------------------
-<Pictures/80211s.png, id=277, 722.7pt x 338.26375pt>
+<Pictures/80211s.png, id=321, 722.7pt x 338.26375pt>
 File: Pictures/80211s.png Graphic file (type png)
 <use Pictures/80211s.png>
 Package pdftex.def Info: Pictures/80211s.png  used on input line 22.
@@ -1002,18 +1002,18 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
  [7 <./Pictures/80211s.png>] [8]
-<Pictures/open80211s.png, id=314, 1232.605pt x 604.2575pt>
+<Pictures/open80211s.png, id=358, 1232.605pt x 604.2575pt>
 File: Pictures/open80211s.png Graphic file (type png)
 <use Pictures/open80211s.png>
 Package pdftex.def Info: Pictures/open80211s.png  used on input line 47.
 (pdftex.def)             Requested size: 369.78435pt x 181.27864pt.
-<Pictures/openwrt_logo.jpg, id=315, 288.3272pt x 73.77562pt>
+<Pictures/openwrt_logo.jpg, id=359, 288.3272pt x 73.77562pt>
 File: Pictures/openwrt_logo.jpg Graphic file (type jpg)
 <use Pictures/openwrt_logo.jpg>
 Package pdftex.def Info: Pictures/openwrt_logo.jpg  used on input line 58.
 (pdftex.def)             Requested size: 288.32648pt x 73.77542pt.
  [9 <./Pictures/open80211s.png> <./Pictures/openwrt_logo.jpg>]
-<Pictures/ssh4.png, id=323, 740.7675pt x 493.845pt>
+<Pictures/ssh4.png, id=366, 740.7675pt x 493.845pt>
 File: Pictures/ssh4.png Graphic file (type png)
 <use Pictures/ssh4.png>
 Package pdftex.def Info: Pictures/ssh4.png  used on input line 72.
@@ -1024,23 +1024,23 @@ Overfull \hbox (17.0324pt too wide) in paragraph at lines 72--73
  []
 
 [10 <./Pictures/ssh4.png>]
-<Pictures/tplink12.png, id=332, 612.2875pt x 417.56pt>
+<Pictures/tplink12.png, id=375, 612.2875pt x 417.56pt>
 File: Pictures/tplink12.png Graphic file (type png)
 <use Pictures/tplink12.png>
 Package pdftex.def Info: Pictures/tplink12.png  used on input line 89.
 (pdftex.def)             Requested size: 183.68767pt x 125.26895pt.
-<Pictures/tplink2.png, id=333, 511.9125pt x 537.00626pt>
+<Pictures/tplink2.png, id=376, 511.9125pt x 537.00626pt>
 File: Pictures/tplink2.png Graphic file (type png)
 <use Pictures/tplink2.png>
 Package pdftex.def Info: Pictures/tplink2.png  used on input line 93.
 (pdftex.def)             Requested size: 153.57494pt x 161.10312pt.
  [11 <./Pictures/tplink12.png> <./Pictures/tplink2.png>]
-<Pictures/tube2h2.jpg, id=342, 344.78813pt x 344.78813pt>
+<Pictures/tube2h2.jpg, id=385, 344.78813pt x 344.78813pt>
 File: Pictures/tube2h2.jpg Graphic file (type jpg)
 <use Pictures/tube2h2.jpg>
 Package pdftex.def Info: Pictures/tube2h2.jpg  used on input line 109.
 (pdftex.def)             Requested size: 189.63405pt x 189.63405pt.
-<Pictures/tube2h.jpg, id=343, 702.625pt x 501.875pt>
+<Pictures/tube2h.jpg, id=386, 702.625pt x 501.875pt>
 File: Pictures/tube2h.jpg Graphic file (type jpg)
 <use Pictures/tube2h.jpg>
 Package pdftex.def Info: Pictures/tube2h.jpg  used on input line 113.
@@ -1051,7 +1051,7 @@ Overfull \hbox (32.20667pt too wide) in paragraph at lines 113--114
  []
 
 [12 <./Pictures/tube2h2.jpg> <./Pictures/tube2h.jpg>]
-<Pictures/luci2.png, id=351, 1288.815pt x 1003.75pt>
+<Pictures/luci2.png, id=394, 1288.815pt x 1003.75pt>
 File: Pictures/luci2.png Graphic file (type png)
 <use Pictures/luci2.png>
 Package pdftex.def Info: Pictures/luci2.png  used on input line 129.
@@ -1061,7 +1061,7 @@ Package pdftex.def Info: Pictures/luci2.png  used on input line 129.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13] [14 <./Pictures/luci2.png>]
-<Pictures/meshNetwork.png, id=363, 673.51625pt x 363.3575pt>
+<Pictures/meshNetwork.png, id=406, 673.51625pt x 363.3575pt>
 File: Pictures/meshNetwork.png Graphic file (type png)
 <use Pictures/meshNetwork.png>
 Package pdftex.def Info: Pictures/meshNetwork.png  used on input line 152.
@@ -1071,29 +1071,84 @@ Overfull \hbox (44.02663pt too wide) in paragraph at lines 152--153
  [][] 
  []
 
-[15] [16 <./Pictures/meshNetwork.png>]) Excluding 'comment' comment. [17]
+[15] [16 <./Pictures/meshNetwork.png>] Excluding 'comment' comment.
+<Pictures/singleMaster.png, id=417, 412.54124pt x 312.16624pt>
+File: Pictures/singleMaster.png Graphic file (type png)
+<use Pictures/singleMaster.png>
+Package pdftex.def Info: Pictures/singleMaster.png  used on input line 177.
+(pdftex.def)             Requested size: 206.27011pt x 156.08273pt.
+<Pictures/multimaster.png, id=418, 412.54124pt x 332.24126pt>
+File: Pictures/multimaster.png Graphic file (type png)
+<use Pictures/multimaster.png>
+Package pdftex.def Info: Pictures/multimaster.png  used on input line 181.
+(pdftex.def)             Requested size: 206.27011pt x 166.12021pt.
+
+Excluding 'comment' comment. [17 <./Pictures/singleMaster.png> <./Pictures/mult
+imaster.png>]) (./Chapters/Chapter3.tex [18]
+Chapter 3.
+------------------------------------------------------------------------------
+ 3 Long Range Communication Architecture
+------------------------------------------------------------------------------
+[19
+
+]
+<Pictures/rfd1.jpg, id=439, 1284.8pt x 1003.75pt>
+File: Pictures/rfd1.jpg Graphic file (type jpg)
+<use Pictures/rfd1.jpg>
+Package pdftex.def Info: Pictures/rfd1.jpg  used on input line 23.
+(pdftex.def)             Requested size: 128.48752pt x 100.38087pt.
+<Pictures/rfd2.jpg, id=440, 426.59375pt x 305.14pt>
+File: Pictures/rfd2.jpg Graphic file (type jpg)
+<use Pictures/rfd2.jpg>
+Package pdftex.def Info: Pictures/rfd2.jpg  used on input line 27.
+(pdftex.def)             Requested size: 213.29634pt x 152.56961pt.
+ [20 <./Pictures/rfd1.jpg> <./Pictures/rfd2.jpg>]
+<Pictures/peer.png, id=446, 958.58125pt x 358.33875pt>
+File: Pictures/peer.png Graphic file (type png)
+<use Pictures/peer.png>
+Package pdftex.def Info: Pictures/peer.png  used on input line 40.
+(pdftex.def)             Requested size: 383.4257pt x 143.33296pt.
+
+Overfull \hbox (23.37697pt too wide) in paragraph at lines 44--44
+ []|\OT1/cmr/bx/it/9 source: http://files.rfdesign.com.au/Files/documents/RFD90
+0x%20DataSheet%20V1.1.pdf|  
+ []
+
+[21 <./Pictures/peer.png>]
+<Pictures/sync.png, id=453, 931.48pt x 411.5375pt>
+File: Pictures/sync.png Graphic file (type png)
+<use Pictures/sync.png>
+Package pdftex.def Info: Pictures/sync.png  used on input line 54.
+(pdftex.def)             Requested size: 372.5854pt x 164.61208pt.
+
+Overfull \hbox (23.37697pt too wide) in paragraph at lines 58--58
+ []|\OT1/cmr/bx/it/9 source: http://files.rfdesign.com.au/Files/documents/RFD90
+0x%20DataSheet%20V1.1.pdf|  
+ []
+
+) Excluding 'comment' comment. [22 <./Pictures/sync.png>]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(./main.bbl [18
+(./main.bbl [23
 
 
-] [19])
+] [24])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
- [20]
+ [25]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 74F92B07883F2AF16D0BC54849FE2759;4576.
+(rerunfilecheck)             Checksum: B1838E765BD23AA1F9EB21CBA5E7970E;5886.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  ) 
 Here is how much of TeX's memory you used:
- 13598 strings out of 494880
- 190071 string characters out of 6179602
+ 13671 strings out of 494880
+ 191278 string characters out of 6179602
  279844 words of memory out of 5000000
- 16604 multiletter control sequences out of 15000+600000
+ 16650 multiletter control sequences out of 15000+600000
  14505 words of font info for 52 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,11n,45p,1660b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1109,10 +1164,10 @@ blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt10.pfb>
-Output written on main.pdf (28 pages, 1638121 bytes).
+Output written on main.pdf (33 pages, 2111073 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 391 compressed objects within 4 object streams
- 100 named destinations out of 1000 (max. 500000)
- 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 542 PDF objects out of 1000 (max. 8388607)
+ 460 compressed objects within 5 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 368 words of extra memory for PDF output out of 10000 (max. 10000000)
 

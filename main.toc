@@ -27,5 +27,12 @@
 \contentsline {subsubsection}{\numberline {2.2.3.3}Routing protocols}{15}{subsubsection.34}
 \contentsline {subsubsection}{\numberline {2.2.3.4}Mesh networks among the host machines}{15}{subsubsection.35}
 \contentsline {section}{\numberline {2.3}Integration with ROS}{16}{section.37}
-\contentsline {subsection}{\numberline {2.3.1}multimaster\_fkie}{17}{subsection.38}
-\contentsline {chapter}{Bibliography}{18}{dummy.39}
+\contentsline {subsection}{\numberline {2.3.1}Multimaster\_fkie}{17}{subsection.39}
+\contentsline {subsubsection}{\numberline {2.3.1.1}master\_discovery}{17}{subsubsection.40}
+\contentsline {subsubsection}{\numberline {2.3.1.2}master\_sync}{18}{subsubsection.41}
+\contentsline {chapter}{\numberline {3}Long Range Communication Architecture}{19}{chapter.42}
+\contentsline {section}{\numberline {3.1}Hardware}{19}{section.43}
+\contentsline {subsection}{\numberline {3.1.1}RFD900X}{20}{subsection.44}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Peer to Peer Firmware}{21}{subsubsection.46}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Synchronous Mesh Firmware}{22}{subsubsection.48}
+\contentsline {chapter}{Bibliography}{23}{dummy.50}
