@@ -45,7 +45,7 @@ As mentioned, the radios come flashed with the peer to peer firmware by default.
 \end{figure}
 
 \subsubsection{Synchronous Mesh Firmware}
-While the peer to peer firmware allows communication only between a pair of radios, the asynchronous firmware is a point to multipoint firmware. Apart from the NETID parameter, there is a NODEID parameter, NODEDESTINATION parameter, NETCOUNT parameter among others, that can be set by the AT commands. Unlike the peer to peer firmware, more than two radios can have the same NETID. While using the synchronous firmware, one of the radios needs to be as a base node. This can be done by setting the NETID parameter to 0 and NODEID parameter to 1 on the base radio. We should also specify the number of radios with the parameter NETCOUNT.
+While the peer to peer firmware allows communication only between a pair of radios, the asynchronous firmware is a point to multipoint firmware. Apart from the NETID parameter, there is a NODEID parameter, NODEDESTINATION parameter, NETCOUNT parameter among others, that can be set by the AT commands. Unlike the peer to peer firmware, more than two radios can have the same NETID. While using the synchronous firmware, one of the radios needs to be as a base node. This can be done by setting the NETID parameter to 0 and NODEID parameter to 1 on the base radio. We should also specify the number of radios with the parameter NETCOUNT. Each radio should be assigned a unique NODEID, from 1 to 15. By, specifying the NODEDESTINATION, the radio transmits the data to that node. If the NODEDESTINATION is set as 255, it enables broadcast mode and transmits to all the nodes.
 
 In this configuration, the base radio assigns time slots to each of the other radios to communicate. Essentially, each radio transmits data only during its assigned time slot. So, even if other radios are not transmitting data, a radio waits for its time slot to transmit its data. This is inefficient when either not many radios are transmitting or they are not transmitting too often.
 
@@ -58,6 +58,67 @@ In this configuration, the base radio assigns time slots to each of the other ra
 	\caption*{source: http://files.rfdesign.com.au/Files/documents/RFD900x\%20DataSheet\%20V1.1.pdf}
 \end{figure}
 
+\subsubsection{Asynchronous Mesh Firmware}
+Like synchronous firmware, this a point to multipoint firmware. But, in its configurable parameters, there is no NETCOUNT pararmeter, and instead of NODEDESTATION, there is a DESTID parameter. Here, the NODEID can be set to any unique value between 1 to 32767. The radio transmits to a receiver radio, specified by setting the parameter DESTID to the NODEID of the receiver radio. If the DESTID parameter is set as 65535, broadcast mode is enabled and the radio transmits to all the radios in the network.
 
+While, in the synchronous firmware, each radio in the network, is assigned a time slot, for transmitting data, coordinated by the base radio, in the case of asynchronous firmware, there is no base radio which assigns time slots and the radios can transmit any time, asynchronously. If two radios transmit simultaneously and a packet collision happens, the radios retry to transmit the packet, multiple times, based on the parameter, MAX\_RETRIES.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.4]{Pictures/async.png}
+	\caption{modems in asynchronous mesh configuration}
+	\label{fig: rfdsync}
+	\captionsetup{font={footnotesize,bf,it}}
+	\caption*{source: http://files.rfdesign.com.au/Files/documents/RFD900x\%20DataSheet\%20V1.1.pdf}
+\end{figure}
+
+\section{Architecture and Integration with ROS}
+Let us give a brief outline of the entire architecture, along with wifi mesh and the RFDs. As we described in the last chapter, the wifi routers connected to the host machines, will establish a mesh network among the host machines, which are running ROS. Thus, ros topics and services of any host machine can be acessed in any other host machine, as required. Now, the assumption is that, while the mesh network enables communication among the host machines, which are mounted on the UAVs, the communication between the UAVs and the ground station cannot be acheived by the mesh network as the ground station may be far away and out of range of the mesh. This is where the RFDs come in.
+
+However, RFDs have a few downsides. First, they offer much lower data rate, which means that the data that is being sent down by the 
+UAVs to the ground has to be minimal. Second, if all the UAVs are simultaneously transmitting data to the ground station, it would overwhelm the system in one way, or the other. This motivated us to come up with an architecture, where not all the UAVs are transmitting data down to the ground station, at any given time. We designate one of the UAVs as a leader, in the sense that it is the only UAV, that sends data down to the ground station. The leader, itself takes care of all the data, of the remaining UAVs as well, that needs to be sent to the ground station. This is possible since the leader has access to the data of all the remaining UAVs, as they are all connected via the mesh network.
+
+One of the key assumptions is that all the UAVs are always connected via the mesh network, allowing the leader to access their data, as required. But, it may happen that some of the UAVs are out of range of the mesh network and are not accessible by the leader, or the leader itself, may come out of range, disconnecting it with the rest of the UAVs. This prompted us to extend the proposed architecture to address these problems.
+
+In the coming sections, we propose and describe two architectures. First one is a \textit{Static Leader} architecture, where there is only one fixed leader, in the network. Clearly, this assumes that all the other UAVs are accessible by the leader via the mesh network. The second architecture, which we call \textit{Dynamic Leader} architecture is an extension of the first one, designed to address the shortcomings of the second one.
+
+Before proceeding further, let us look at how ROS fits into the architecture, and the interfaces we have had to write for ROS.
+
+\subsection{ROS}
+ROS, running on the host machines of the UAVs, communicates with the onboard autopilot, which is connected to various sensors, and publishes all the sensor data and the state of the UAVs, on various ros topics. It also makes various ros services available, which upon calling would call corresponding services on the autopilot. Our aim was to make all the required data of all the UAVs available at the ground station, as ros topics and services.
+
+Since the RFDs are serial radios and do not have a TCP/IP protocol stack, these radios cannot be integrated into ROS, as easily as the wifi mesh network. The reason for this is that, while ROS allows access of ros topics and services via TCP/IP, it does not have a serial interface. By serial interface, we mean the access of ros topics and services via a serial communication link. This has led us write our own serial interface for ROS. We have written this interface as an independent open source ROS node in a package, that anyone can use in their own applications. Both the node and the package are called \textit{serialros}.
+
+\subsubsection{serialros}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{Pictures/serialros.png}
+	\caption{serialros, a serial interface to ROS}
+	\label{fig: serialros}
+	\captionsetup{font={footnotesize,bf,it}}
+\end{figure}
+
+The \textit{serialros} package allows sending and receiving of arbitrary ros topics via a serial communication link. It also allows access of ros services via a serial link. The node, when launched, monitors the serial port as specified and publishes any incoming messages, on their corresponding topics in the local machine. However, it does not transmit any ros messages of any topics, that are published on the local machine, via the serial port. For transmitting messages, from a topic that is being published on the local machine, via the serial port, the topic has to be specified in a configuration file. Similarly the services of a remote machine that we want to access on the local machine needs to be specified in the configuration file.
+
+The package has a launch file \textit{serialros.launch}, that can be launched with \textit{roslaunch}, which launches the relevant nodes and starts publishing any incoming ros topics on the serial port, transmits any specified ros topics from the local machine and makes specified services from remote machines accessible in the local machine. The source code and instructions on how to use the package can be found at \url{https://github.com/saiadityachundi/serialros.git}.
+
+\subsection{Static Leader}
+In this architecture, we designate one of the UAVs as a leader. We assume that all the UAVs are always connected via the mesh network. As we saw in the last chapter, as long as all the UAVs are connected, all the ros topics and services of any of the UAVs can be echoed and accessed at the leader.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{Pictures/staticLeader.png}
+	\caption{Static Leader Architecture}
+	\label{fig: staticLeader}
+	\captionsetup{font={footnotesize,bf,it}}
+\end{figure}
+
+The linux machine on the leader runs the \textit{serialros} node, as described in the last section. The \textit{serialros} node is also run on the ground station. This allows transfer of specified ros topics and services between the leader and the ground station. And since, the leader has access to all the ros topics and services of all the UAVs, sepcifying these topics in the \textit{serialros} configuration file would send these topics to the ground station, in the downlink. Typically, the ground station would not need to send any topics to the UAVs, in the uplink. It may need to access some ros services of the UAVs. This can be done by specifying these remote services in the configuration file of \textit{serialros}, at the ground station.
+
+Thus, \textit{Static Leader} architecture combines both long range and short range communication aspects. While the wifi mesh network enables communication among the UAVs for robust distributed applications, the leader established long range communication with the ground station. One of the advantages of this architecture is that the long range radios are only needed at the leader. Also note that, since there are only two long range radios operating, one at the ground station and one on the leader, we can use RFDs, in peer to peer configuration, which offers best performance than either of the point to multipoint firmwares.
+
+However, as mentioned earlier, this architecture assumes that all the UAVs are always connected via the mesh network, which may turn out be false. Moreover, since there is only one leader, there is a single point of failure in the system. In a case where the leader fails, for whatever reason, the ground station link would be gone. The need for addressing these issues brings us to the next section, \textit{Dynamic Leader}
+
+\subsection{Dynamic Leader}
 

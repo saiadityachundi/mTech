@@ -1,8 +1,8 @@
 \begin{thebibliography}{}
 
-\bibitem[ope, ]{openwrt}
-openwrt project. https://openwrt.org/.
-\newblock Accessed: 2019-05-20.
+\bibitem[ref, 2019]{ref1}
+ (2019).
+\newblock https://openwrt.org.
 
 \bibitem[{Abolhasan} et~al., 2009]{batcom}
 {Abolhasan}, M., {Hagelstein}, B., and {Wang}, J. C.~. (2009).

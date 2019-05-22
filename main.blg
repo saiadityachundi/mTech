@@ -5,42 +5,41 @@ The style file: apalike.bst
 Database file #1: Bibliography.bib
 Warning--entry type for "olsr" isn't style-file defined
 --line 77 of file Bibliography.bib
-Warning--to sort, need author or key in openwrt
-Warning--empty year in openwrt
+Warning--to sort, need author or key in ref1
 Warning--empty journal in batman
 Warning--empty booktitle in dsr
 Warning--empty journal in meshfig
 Warning--can't use both author and editor fields in fkie2
 You've used 33 entries,
             1935 wiz_defined-function locations,
-            670 strings with 9261 characters,
-and the built_in function-call counts, 14634 in all, are:
-= -- 1453
+            669 strings with 9220 characters,
+and the built_in function-call counts, 14628 in all, are:
+= -- 1450
 > -- 541
 < -- 34
 + -- 188
 - -- 180
-* -- 1163
+* -- 1165
 := -- 2382
 add.period$ -- 96
 call.type$ -- 33
 change.case$ -- 255
 chr.to.int$ -- 33
-cite$ -- 40
+cite$ -- 39
 duplicate$ -- 617
 empty$ -- 1062
 format.name$ -- 234
-if$ -- 3039
+if$ -- 3036
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 30
 newline$ -- 163
 num.names$ -- 96
-pop$ -- 261
+pop$ -- 260
 preamble$ -- 1
 purify$ -- 255
 quote$ -- 0
-skip$ -- 496
+skip$ -- 497
 stack$ -- 0
 substring$ -- 1075
 swap$ -- 157
@@ -48,8 +47,8 @@ text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 196
-warning$ -- 6
+warning$ -- 5
 while$ -- 107
 width$ -- 0
 write$ -- 422
-(There were 7 warnings)
+(There were 6 warnings)

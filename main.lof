@@ -14,3 +14,6 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces RFD900x along with antennas and FTDI cables\relax }}{20}{figure.caption.45}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces modems in peer to peer configuration\relax }}{21}{figure.caption.47}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces modems in synchronous mesh configuration\relax }}{22}{figure.caption.49}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces modems in asynchronous mesh configuration\relax }}{23}{figure.caption.51}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces serialros, a serial interface to ROS\relax }}{25}{figure.caption.55}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Static Leader Architecture\relax }}{26}{figure.caption.57}
