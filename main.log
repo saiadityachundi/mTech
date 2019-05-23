@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.1)  22 MAY 2019 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.1)  23 MAY 2019 05:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,7 +877,7 @@ LaTeX Info: Redefining \nameref on input line 32.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<Pictures/redlogo.jpg, id=161, 230.8625pt x 219.82124pt>
+<Pictures/redlogo.jpg, id=193, 230.8625pt x 219.82124pt>
 File: Pictures/redlogo.jpg Graphic file (type jpg)
 <use Pictures/redlogo.jpg>
 Package pdftex.def Info: Pictures/redlogo.jpg  used on input line 79.
@@ -964,12 +964,12 @@ Chapter 1.
 
 
 ] [2]
-<Pictures/star.png, id=311, 277.035pt x 423.5825pt>
+<Pictures/star.png, id=358, 277.035pt x 423.5825pt>
 File: Pictures/star.png Graphic file (type png)
 <use Pictures/star.png>
 Package pdftex.def Info: Pictures/star.png  used on input line 34.
 (pdftex.def)             Requested size: 124.6646pt x 190.61037pt.
-<Pictures/mesh.png, id=313, 544.0325pt x 463.7325pt>
+<Pictures/mesh.png, id=360, 544.0325pt x 463.7325pt>
 File: Pictures/mesh.png Graphic file (type png)
 <use Pictures/mesh.png>
 Package pdftex.def Info: Pictures/mesh.png  used on input line 40.
@@ -985,7 +985,7 @@ Chapter 2.
 ------------------------------------------------------------------------------
  2 The Mesh Architecture
 ------------------------------------------------------------------------------
-<Pictures/80211s.png, id=352, 722.7pt x 338.26375pt>
+<Pictures/80211s.png, id=398, 722.7pt x 338.26375pt>
 File: Pictures/80211s.png Graphic file (type png)
 <use Pictures/80211s.png>
 Package pdftex.def Info: Pictures/80211s.png  used on input line 22.
@@ -1005,18 +1005,18 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
  [7 <./Pictures/80211s.png>] [8]
-<Pictures/open80211s.png, id=389, 1232.605pt x 604.2575pt>
+<Pictures/open80211s.png, id=435, 1232.605pt x 604.2575pt>
 File: Pictures/open80211s.png Graphic file (type png)
 <use Pictures/open80211s.png>
 Package pdftex.def Info: Pictures/open80211s.png  used on input line 47.
 (pdftex.def)             Requested size: 369.78435pt x 181.27864pt.
-<Pictures/openwrt_logo.jpg, id=390, 288.3272pt x 73.77562pt>
+<Pictures/openwrt_logo.jpg, id=436, 288.3272pt x 73.77562pt>
 File: Pictures/openwrt_logo.jpg Graphic file (type jpg)
 <use Pictures/openwrt_logo.jpg>
 Package pdftex.def Info: Pictures/openwrt_logo.jpg  used on input line 58.
 (pdftex.def)             Requested size: 288.32648pt x 73.77542pt.
  [9 <./Pictures/open80211s.png> <./Pictures/openwrt_logo.jpg>]
-<Pictures/ssh4.png, id=397, 740.7675pt x 493.845pt>
+<Pictures/ssh4.png, id=443, 740.7675pt x 493.845pt>
 File: Pictures/ssh4.png Graphic file (type png)
 <use Pictures/ssh4.png>
 Package pdftex.def Info: Pictures/ssh4.png  used on input line 72.
@@ -1027,23 +1027,23 @@ Overfull \hbox (17.0324pt too wide) in paragraph at lines 72--73
  []
 
 [10 <./Pictures/ssh4.png>]
-<Pictures/tplink12.png, id=406, 612.2875pt x 417.56pt>
+<Pictures/tplink12.png, id=452, 612.2875pt x 417.56pt>
 File: Pictures/tplink12.png Graphic file (type png)
 <use Pictures/tplink12.png>
 Package pdftex.def Info: Pictures/tplink12.png  used on input line 89.
 (pdftex.def)             Requested size: 183.68767pt x 125.26895pt.
-<Pictures/tplink2.png, id=407, 511.9125pt x 537.00626pt>
+<Pictures/tplink2.png, id=453, 511.9125pt x 537.00626pt>
 File: Pictures/tplink2.png Graphic file (type png)
 <use Pictures/tplink2.png>
 Package pdftex.def Info: Pictures/tplink2.png  used on input line 93.
 (pdftex.def)             Requested size: 153.57494pt x 161.10312pt.
  [11 <./Pictures/tplink12.png> <./Pictures/tplink2.png>]
-<Pictures/tube2h2.jpg, id=416, 344.78813pt x 344.78813pt>
+<Pictures/tube2h2.jpg, id=462, 344.78813pt x 344.78813pt>
 File: Pictures/tube2h2.jpg Graphic file (type jpg)
 <use Pictures/tube2h2.jpg>
 Package pdftex.def Info: Pictures/tube2h2.jpg  used on input line 109.
 (pdftex.def)             Requested size: 189.63405pt x 189.63405pt.
-<Pictures/tube2h.jpg, id=417, 702.625pt x 501.875pt>
+<Pictures/tube2h.jpg, id=463, 702.625pt x 501.875pt>
 File: Pictures/tube2h.jpg Graphic file (type jpg)
 <use Pictures/tube2h.jpg>
 Package pdftex.def Info: Pictures/tube2h.jpg  used on input line 113.
@@ -1054,7 +1054,7 @@ Overfull \hbox (32.20667pt too wide) in paragraph at lines 113--114
  []
 
 [12 <./Pictures/tube2h2.jpg> <./Pictures/tube2h.jpg>]
-<Pictures/luci2.png, id=425, 1288.815pt x 1003.75pt>
+<Pictures/luci2.png, id=471, 1288.815pt x 1003.75pt>
 File: Pictures/luci2.png Graphic file (type png)
 <use Pictures/luci2.png>
 Package pdftex.def Info: Pictures/luci2.png  used on input line 129.
@@ -1064,7 +1064,7 @@ Package pdftex.def Info: Pictures/luci2.png  used on input line 129.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13] [14 <./Pictures/luci2.png>]
-<Pictures/meshNetwork.png, id=437, 673.51625pt x 363.3575pt>
+<Pictures/meshNetwork.png, id=484, 673.51625pt x 363.3575pt>
 File: Pictures/meshNetwork.png Graphic file (type png)
 <use Pictures/meshNetwork.png>
 Package pdftex.def Info: Pictures/meshNetwork.png  used on input line 152.
@@ -1075,12 +1075,12 @@ Overfull \hbox (44.02663pt too wide) in paragraph at lines 152--153
  []
 
 [15] [16 <./Pictures/meshNetwork.png>] Excluding 'comment' comment.
-<Pictures/singleMaster.png, id=448, 412.54124pt x 312.16624pt>
+<Pictures/singleMaster.png, id=495, 412.54124pt x 312.16624pt>
 File: Pictures/singleMaster.png Graphic file (type png)
 <use Pictures/singleMaster.png>
 Package pdftex.def Info: Pictures/singleMaster.png  used on input line 177.
 (pdftex.def)             Requested size: 206.27011pt x 156.08273pt.
-<Pictures/multimaster.png, id=449, 412.54124pt x 332.24126pt>
+<Pictures/multimaster.png, id=496, 412.54124pt x 332.24126pt>
 File: Pictures/multimaster.png Graphic file (type png)
 <use Pictures/multimaster.png>
 Package pdftex.def Info: Pictures/multimaster.png  used on input line 181.
@@ -1095,18 +1095,18 @@ Chapter 3.
 [19
 
 ]
-<Pictures/rfd1.jpg, id=471, 1284.8pt x 1003.75pt>
+<Pictures/rfd1.jpg, id=517, 1284.8pt x 1003.75pt>
 File: Pictures/rfd1.jpg Graphic file (type jpg)
 <use Pictures/rfd1.jpg>
 Package pdftex.def Info: Pictures/rfd1.jpg  used on input line 23.
 (pdftex.def)             Requested size: 128.48752pt x 100.38087pt.
-<Pictures/rfd2.jpg, id=472, 426.59375pt x 305.14pt>
+<Pictures/rfd2.jpg, id=518, 426.59375pt x 305.14pt>
 File: Pictures/rfd2.jpg Graphic file (type jpg)
 <use Pictures/rfd2.jpg>
 Package pdftex.def Info: Pictures/rfd2.jpg  used on input line 27.
 (pdftex.def)             Requested size: 213.29634pt x 152.56961pt.
  [20 <./Pictures/rfd1.jpg> <./Pictures/rfd2.jpg>]
-<Pictures/peer.png, id=478, 958.58125pt x 358.33875pt>
+<Pictures/peer.png, id=524, 958.58125pt x 358.33875pt>
 File: Pictures/peer.png Graphic file (type png)
 <use Pictures/peer.png>
 Package pdftex.def Info: Pictures/peer.png  used on input line 40.
@@ -1118,7 +1118,7 @@ Overfull \hbox (23.37697pt too wide) in paragraph at lines 44--44
  []
 
 [21 <./Pictures/peer.png>]
-<Pictures/sync.png, id=484, 931.48pt x 411.5375pt>
+<Pictures/sync.png, id=530, 931.48pt x 411.5375pt>
 File: Pictures/sync.png Graphic file (type png)
 <use Pictures/sync.png>
 Package pdftex.def Info: Pictures/sync.png  used on input line 54.
@@ -1135,7 +1135,7 @@ Overfull \hbox (0.12393pt too wide) in paragraph at lines 64--65
 on the pa-ram-e-ter, MAX[]RETRIES. 
  []
 
-<Pictures/async.png, id=490, 1100.11pt x 663.47874pt>
+<Pictures/async.png, id=536, 1100.11pt x 663.47874pt>
 File: Pictures/async.png Graphic file (type png)
 <use Pictures/async.png>
 Package pdftex.def Info: Pictures/async.png  used on input line 68.
@@ -1152,47 +1152,86 @@ Overfull \hbox (23.37697pt too wide) in paragraph at lines 72--72
  []
 
 [23 <./Pictures/async.png>] [24]
-<Pictures/serialros.png, id=501, 703.62875pt x 121.45375pt>
+<Pictures/serialros.png, id=547, 703.62875pt x 121.45375pt>
 File: Pictures/serialros.png Graphic file (type png)
 <use Pictures/serialros.png>
 Package pdftex.def Info: Pictures/serialros.png  used on input line 96.
 (pdftex.def)             Requested size: 351.8135pt x 60.72672pt.
  [25 <./Pictures/serialros.png>]
-<Pictures/staticLeader.png, id=508, 827.09pt x 313.17pt>
+<Pictures/staticLeader.png, id=554, 827.09pt x 313.17pt>
 File: Pictures/staticLeader.png Graphic file (type png)
 <use Pictures/staticLeader.png>
 Package pdftex.def Info: Pictures/staticLeader.png  used on input line 111.
 (pdftex.def)             Requested size: 413.54398pt x 156.58461pt.
- [26 <./Pictures/staticLeader.png>]) Excluding 'comment' comment. [27]
+ [26 <./Pictures/staticLeader.png>] [27]
+<Pictures/dynamicLeader.png, id=565, 796.9775pt x 368.37625pt>
+File: Pictures/dynamicLeader.png Graphic file (type png)
+<use Pictures/dynamicLeader.png>
+Package pdftex.def Info: Pictures/dynamicLeader.png  used on input line 130.
+(pdftex.def)             Requested size: 398.48776pt x 184.18767pt.
+ [28 <./Pictures/dynamicLeader.png>]
+<Pictures/modeFlowChart.png, id=571, 731.73375pt x 631.35875pt>
+File: Pictures/modeFlowChart.png Graphic file (type png)
+<use Pictures/modeFlowChart.png>
+Package pdftex.def Info: Pictures/modeFlowChart.png  used on input line 147.
+(pdftex.def)             Requested size: 439.04364pt x 378.81818pt.
+
+Overfull \hbox (11.6121pt too wide) in paragraph at lines 147--148
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29] [30 <./Pictures/modeFlowChart.png>]) (./Chapters/Chapter4.tex [31]
+Chapter 4.
+------------------------------------------------------------------------------
+ 4 Conclusion
+------------------------------------------------------------------------------
+[32
+
+]) (./Chapters/Chapter5.tex [33]
+Chapter 5.
+------------------------------------------------------------------------------
+ 5 Preliminaries
+------------------------------------------------------------------------------
+<Pictures/uav.png, id=598, 522.95375pt x 282.05376pt>
+File: Pictures/uav.png Graphic file (type png)
+<use Pictures/uav.png>
+Package pdftex.def Info: Pictures/uav.png  used on input line 13.
+(pdftex.def)             Requested size: 418.36356pt x 225.6433pt.
+) Excluding 'comment' comment. [34
+
+ <./Pictures/uav.png>]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(./main.bbl [28
+(./main.bbl [35
 
 
-] [29])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
- [30]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
+] [36])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
+ [37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2120DA72FBBD19CAC03813429F9345F2;6821.
+(rerunfilecheck)             Checksum: 2E3D94453F6C5F39BD070732012D5DA6;8052.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
- 13706 strings out of 494880
- 191888 string characters out of 6179602
+ 13757 strings out of 494880
+ 192746 string characters out of 6179602
  279844 words of memory out of 5000000
- 16669 multiletter control sequences out of 15000+600000
+ 16693 multiletter control sequences out of 15000+600000
  14505 words of font info for 52 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,11n,45p,1660b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,1660b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -1205,10 +1244,10 @@ blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt10.pfb>
-Output written on main.pdf (38 pages, 2174288 bytes).
+Output written on main.pdf (45 pages, 2241327 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 513 compressed objects within 6 object streams
- 131 named destinations out of 1000 (max. 500000)
- 423 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 696 PDF objects out of 1000 (max. 8388607)
+ 589 compressed objects within 6 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 502 words of extra memory for PDF output out of 10000 (max. 10000000)
 
