@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.1)  24 MAY 2019 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.1)  6 JUN 2019 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -792,14 +792,62 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count136
+\calc@Bcount=\count137
+\calc@Adimen=\dimen150
+\calc@Bdimen=\dimen151
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count138
+\calc@Cskip=\skip67
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen152
+\AM@pageheight=\dimen153
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box38
+\AM@global@opts=\toks35
+\AM@toc@title=\toks36
+\c@AM@survey=\count139
+\AM@templatesizebox=\box39
+)
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip65
-\bibsep=\skip66
+\bibhang=\skip68
+\bibsep=\skip69
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count136
+\c@NAT@ctr=\count140
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 26.
+Package hyperref Info: Option `colorlinks' set `true' on input line 27.
  (./main.aux
 
 LaTeX Warning: Label `fig: rfdsync' multiply defined.
@@ -807,22 +855,22 @@ LaTeX Warning: Label `fig: rfdsync' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -837,107 +885,115 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
-\scratchdimen=\dimen150
-\scratchbox=\box38
-\nofMPsegments=\count138
-\nofMParguments=\count139
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count140
-\MPscratchDim=\dimen151
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count141
+\scratchdimen=\dimen154
+\scratchbox=\box40
+\nofMPsegments=\count142
+\nofMParguments=\count143
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count144
+\MPscratchDim=\dimen155
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
+\everyMPtoPDFconversion=\toks38
 )
-\c@lstlisting=\count143
-\AtBeginShipoutBox=\box39
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-Package hyperref Info: Link coloring ON on input line 32.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+\c@lstlisting=\count147
+\AtBeginShipoutBox=\box41
+Package hyperref Info: Link coloring ON on input line 33.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count144
+\c@section@level=\count148
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<Pictures/redlogo.jpg, id=189, 230.8625pt x 219.82124pt>
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+<Pictures/redlogo.jpg, id=184, 230.8625pt x 219.82124pt>
 File: Pictures/redlogo.jpg Graphic file (type jpg)
 <use Pictures/redlogo.jpg>
-Package pdftex.def Info: Pictures/redlogo.jpg  used on input line 79.
+Package pdftex.def Info: Pictures/redlogo.jpg  used on input line 81.
 (pdftex.def)             Requested size: 170.97pt x 162.79262pt.
  [1
 
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/redlogo.jpg>]
-------------------------------------------------------------------------------
- Certificate
-------------------------------------------------------------------------------
+Excluding 'comment' comment.
+<certificate1.pdf, id=197, 504.88625pt x 377.41pt>
+File: certificate1.pdf Graphic file (type pdf)
+<use certificate1.pdf>
+Package pdftex.def Info: certificate1.pdf  used on input line 125.
+(pdftex.def)             Requested size: 504.885pt x 377.40907pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-
+Overfull \hbox (77.45346pt too wide) in paragraph at lines 125--126
+ [][] 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 116.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 116.
+[1 <./certificate1.pdf>]
+<thesisStatement.pdf, id=209, 500.87125pt x 435.6275pt>
+File: thesisStatement.pdf Graphic file (type pdf)
+<use thesisStatement.pdf>
+Package pdftex.def Info: thesisStatement.pdf  used on input line 131.
+(pdftex.def)             Requested size: 450.77994pt x 392.06113pt.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (23.79968pt too wide) in paragraph at lines 116--116
-[]$[]$ $[]$ 
+Overfull \hbox (23.3484pt too wide) in paragraph at lines 131--132
+ [][] 
  []
 
-[1]
+[2 <./thesisStatement.pdf>]
 ------------------------------------------------------------------------------
  Abstract Page
 ------------------------------------------------------------------------------
 
-Overfull \hbox (7.19275pt too wide) in paragraph at lines 128--129
+Overfull \hbox (7.19275pt too wide) in paragraph at lines 145--146
 []\OT1/cmr/m/n/10.95 UAVs have re-ceived con-sid-er-able at-ten-tion in the las
 t decade, both in in-dus-try and academia.
  []
 
-[2
+[3
+
+
 
 ]
 ------------------------------------------------------------------------------
  Acknowledgements
 ------------------------------------------------------------------------------
-[3
+[4
 
 ]
 ------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-(./main.toc [4
+(./main.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [5
 
 
 ])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [5]
+ [6]
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
@@ -945,14 +1001,14 @@ t decade, both in in-dus-try and academia.
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [6
+ [7
 
 
 ] Excluding 'comment' comment.
 ------------------------------------------------------------------------------
  Dedicatory
 ------------------------------------------------------------------------------
-[7
+[8
 
 ] (./Chapters/Chapter1.tex
 Chapter 1.
@@ -964,12 +1020,12 @@ Chapter 1.
 
 
 ] [2]
-<Pictures/star.png, id=351, 277.035pt x 423.5825pt>
+<Pictures/star.png, id=357, 277.035pt x 423.5825pt>
 File: Pictures/star.png Graphic file (type png)
 <use Pictures/star.png>
 Package pdftex.def Info: Pictures/star.png  used on input line 34.
 (pdftex.def)             Requested size: 124.6646pt x 190.61037pt.
-<Pictures/mesh.png, id=353, 544.0325pt x 463.7325pt>
+<Pictures/mesh.png, id=359, 544.0325pt x 463.7325pt>
 File: Pictures/mesh.png Graphic file (type png)
 <use Pictures/mesh.png>
 Package pdftex.def Info: Pictures/mesh.png  used on input line 40.
@@ -985,7 +1041,7 @@ Chapter 2.
 ------------------------------------------------------------------------------
  2 The Mesh Architecture
 ------------------------------------------------------------------------------
-<Pictures/80211s.png, id=391, 722.7pt x 338.26375pt>
+<Pictures/80211s.png, id=397, 722.7pt x 338.26375pt>
 File: Pictures/80211s.png Graphic file (type png)
 <use Pictures/80211s.png>
 Package pdftex.def Info: Pictures/80211s.png  used on input line 22.
@@ -1005,18 +1061,18 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
  [7 <./Pictures/80211s.png>] [8]
-<Pictures/open80211s.png, id=428, 1232.605pt x 604.2575pt>
+<Pictures/open80211s.png, id=434, 1232.605pt x 604.2575pt>
 File: Pictures/open80211s.png Graphic file (type png)
 <use Pictures/open80211s.png>
 Package pdftex.def Info: Pictures/open80211s.png  used on input line 47.
 (pdftex.def)             Requested size: 369.78435pt x 181.27864pt.
-<Pictures/openwrt_logo.jpg, id=429, 288.3272pt x 73.77562pt>
+<Pictures/openwrt_logo.jpg, id=435, 288.3272pt x 73.77562pt>
 File: Pictures/openwrt_logo.jpg Graphic file (type jpg)
 <use Pictures/openwrt_logo.jpg>
 Package pdftex.def Info: Pictures/openwrt_logo.jpg  used on input line 58.
 (pdftex.def)             Requested size: 288.32648pt x 73.77542pt.
  [9 <./Pictures/open80211s.png> <./Pictures/openwrt_logo.jpg>]
-<Pictures/ssh4.png, id=436, 740.7675pt x 493.845pt>
+<Pictures/ssh4.png, id=442, 740.7675pt x 493.845pt>
 File: Pictures/ssh4.png Graphic file (type png)
 <use Pictures/ssh4.png>
 Package pdftex.def Info: Pictures/ssh4.png  used on input line 72.
@@ -1027,23 +1083,23 @@ Overfull \hbox (17.0324pt too wide) in paragraph at lines 72--73
  []
 
 [10 <./Pictures/ssh4.png>]
-<Pictures/tplink12.png, id=445, 612.2875pt x 417.56pt>
+<Pictures/tplink12.png, id=452, 612.2875pt x 417.56pt>
 File: Pictures/tplink12.png Graphic file (type png)
 <use Pictures/tplink12.png>
 Package pdftex.def Info: Pictures/tplink12.png  used on input line 89.
 (pdftex.def)             Requested size: 183.68767pt x 125.26895pt.
-<Pictures/tplink2.png, id=446, 511.9125pt x 537.00626pt>
+<Pictures/tplink2.png, id=453, 511.9125pt x 537.00626pt>
 File: Pictures/tplink2.png Graphic file (type png)
 <use Pictures/tplink2.png>
 Package pdftex.def Info: Pictures/tplink2.png  used on input line 93.
 (pdftex.def)             Requested size: 153.57494pt x 161.10312pt.
  [11 <./Pictures/tplink12.png> <./Pictures/tplink2.png>]
-<Pictures/tube2h2.jpg, id=455, 344.78813pt x 344.78813pt>
+<Pictures/tube2h2.jpg, id=461, 344.78813pt x 344.78813pt>
 File: Pictures/tube2h2.jpg Graphic file (type jpg)
 <use Pictures/tube2h2.jpg>
 Package pdftex.def Info: Pictures/tube2h2.jpg  used on input line 109.
 (pdftex.def)             Requested size: 189.63405pt x 189.63405pt.
-<Pictures/tube2h.jpg, id=456, 702.625pt x 501.875pt>
+<Pictures/tube2h.jpg, id=462, 702.625pt x 501.875pt>
 File: Pictures/tube2h.jpg Graphic file (type jpg)
 <use Pictures/tube2h.jpg>
 Package pdftex.def Info: Pictures/tube2h.jpg  used on input line 113.
@@ -1054,7 +1110,7 @@ Overfull \hbox (32.20667pt too wide) in paragraph at lines 113--114
  []
 
 [12 <./Pictures/tube2h2.jpg> <./Pictures/tube2h.jpg>]
-<Pictures/luci2.png, id=464, 1288.815pt x 1003.75pt>
+<Pictures/luci2.png, id=470, 1288.815pt x 1003.75pt>
 File: Pictures/luci2.png Graphic file (type png)
 <use Pictures/luci2.png>
 Package pdftex.def Info: Pictures/luci2.png  used on input line 129.
@@ -1064,7 +1120,7 @@ Package pdftex.def Info: Pictures/luci2.png  used on input line 129.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13] [14 <./Pictures/luci2.png>]
-<Pictures/meshNetwork.png, id=477, 673.51625pt x 363.3575pt>
+<Pictures/meshNetwork.png, id=483, 673.51625pt x 363.3575pt>
 File: Pictures/meshNetwork.png Graphic file (type png)
 <use Pictures/meshNetwork.png>
 Package pdftex.def Info: Pictures/meshNetwork.png  used on input line 152.
@@ -1075,12 +1131,12 @@ Overfull \hbox (44.02663pt too wide) in paragraph at lines 152--153
  []
 
 [15] [16 <./Pictures/meshNetwork.png>] Excluding 'comment' comment.
-<Pictures/singleMaster.png, id=488, 412.54124pt x 312.16624pt>
+<Pictures/singleMaster.png, id=495, 412.54124pt x 312.16624pt>
 File: Pictures/singleMaster.png Graphic file (type png)
 <use Pictures/singleMaster.png>
 Package pdftex.def Info: Pictures/singleMaster.png  used on input line 177.
 (pdftex.def)             Requested size: 206.27011pt x 156.08273pt.
-<Pictures/multimaster.png, id=489, 412.54124pt x 332.24126pt>
+<Pictures/multimaster.png, id=496, 412.54124pt x 332.24126pt>
 File: Pictures/multimaster.png Graphic file (type png)
 <use Pictures/multimaster.png>
 Package pdftex.def Info: Pictures/multimaster.png  used on input line 181.
@@ -1095,18 +1151,18 @@ Chapter 3.
 [19
 
 ]
-<Pictures/rfd1.jpg, id=510, 1284.8pt x 1003.75pt>
+<Pictures/rfd1.jpg, id=516, 1284.8pt x 1003.75pt>
 File: Pictures/rfd1.jpg Graphic file (type jpg)
 <use Pictures/rfd1.jpg>
 Package pdftex.def Info: Pictures/rfd1.jpg  used on input line 23.
 (pdftex.def)             Requested size: 128.48752pt x 100.38087pt.
-<Pictures/rfd2.jpg, id=511, 426.59375pt x 305.14pt>
+<Pictures/rfd2.jpg, id=517, 426.59375pt x 305.14pt>
 File: Pictures/rfd2.jpg Graphic file (type jpg)
 <use Pictures/rfd2.jpg>
 Package pdftex.def Info: Pictures/rfd2.jpg  used on input line 27.
 (pdftex.def)             Requested size: 213.29634pt x 152.56961pt.
  [20 <./Pictures/rfd1.jpg> <./Pictures/rfd2.jpg>]
-<Pictures/peer.png, id=517, 958.58125pt x 358.33875pt>
+<Pictures/peer.png, id=523, 958.58125pt x 358.33875pt>
 File: Pictures/peer.png Graphic file (type png)
 <use Pictures/peer.png>
 Package pdftex.def Info: Pictures/peer.png  used on input line 40.
@@ -1118,7 +1174,7 @@ Overfull \hbox (23.37697pt too wide) in paragraph at lines 44--44
  []
 
 [21 <./Pictures/peer.png>]
-<Pictures/sync.png, id=523, 931.48pt x 411.5375pt>
+<Pictures/sync.png, id=529, 931.48pt x 411.5375pt>
 File: Pictures/sync.png Graphic file (type png)
 <use Pictures/sync.png>
 Package pdftex.def Info: Pictures/sync.png  used on input line 54.
@@ -1135,7 +1191,7 @@ Overfull \hbox (0.12393pt too wide) in paragraph at lines 64--65
 on the pa-ram-e-ter, MAX[]RETRIES. 
  []
 
-<Pictures/async.png, id=529, 1100.11pt x 663.47874pt>
+<Pictures/async.png, id=536, 1100.11pt x 663.47874pt>
 File: Pictures/async.png Graphic file (type png)
 <use Pictures/async.png>
 Package pdftex.def Info: Pictures/async.png  used on input line 68.
@@ -1152,25 +1208,25 @@ Overfull \hbox (23.37697pt too wide) in paragraph at lines 72--72
  []
 
 [23 <./Pictures/async.png>] [24]
-<Pictures/serialros.png, id=540, 703.62875pt x 121.45375pt>
+<Pictures/serialros.png, id=546, 703.62875pt x 121.45375pt>
 File: Pictures/serialros.png Graphic file (type png)
 <use Pictures/serialros.png>
 Package pdftex.def Info: Pictures/serialros.png  used on input line 96.
 (pdftex.def)             Requested size: 351.8135pt x 60.72672pt.
  [25 <./Pictures/serialros.png>]
-<Pictures/staticLeader.png, id=547, 827.09pt x 313.17pt>
+<Pictures/staticLeader.png, id=553, 827.09pt x 313.17pt>
 File: Pictures/staticLeader.png Graphic file (type png)
 <use Pictures/staticLeader.png>
 Package pdftex.def Info: Pictures/staticLeader.png  used on input line 111.
 (pdftex.def)             Requested size: 413.54398pt x 156.58461pt.
  [26 <./Pictures/staticLeader.png>] [27]
-<Pictures/dynamicLeader.png, id=558, 796.9775pt x 368.37625pt>
+<Pictures/dynamicLeader.png, id=564, 796.9775pt x 368.37625pt>
 File: Pictures/dynamicLeader.png Graphic file (type png)
 <use Pictures/dynamicLeader.png>
 Package pdftex.def Info: Pictures/dynamicLeader.png  used on input line 130.
 (pdftex.def)             Requested size: 398.48776pt x 184.18767pt.
  [28 <./Pictures/dynamicLeader.png>]
-<Pictures/modeFlowChart.png, id=564, 731.73375pt x 631.35875pt>
+<Pictures/modeFlowChart.png, id=571, 731.73375pt x 631.35875pt>
 File: Pictures/modeFlowChart.png Graphic file (type png)
 <use Pictures/modeFlowChart.png>
 Package pdftex.def Info: Pictures/modeFlowChart.png  used on input line 147.
@@ -1198,28 +1254,28 @@ Chapter 4.
 
 
 ] [35])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
  [36]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EF30BE7028A209473FAC6F226FB0F6F1;7929.
+(rerunfilecheck)             Checksum: 659338703CCC15561C52B6F7165DFD1A;7837.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
  ) 
 Here is how much of TeX's memory you used:
- 13743 strings out of 494880
- 192538 string characters out of 6179602
- 279844 words of memory out of 5000000
- 16686 multiletter control sequences out of 15000+600000
+ 14827 strings out of 494880
+ 207960 string characters out of 6179602
+ 281812 words of memory out of 5000000
+ 17746 multiletter control sequences out of 15000+600000
  14505 words of font info for 52 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,12n,45p,1660b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,1660b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -1232,10 +1288,10 @@ blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt10.pfb>
-Output written on main.pdf (44 pages, 2230311 bytes).
+Output written on main.pdf (45 pages, 2448037 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
- 581 compressed objects within 6 object streams
- 146 named destinations out of 1000 (max. 500000)
- 489 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 691 PDF objects out of 1000 (max. 8388607)
+ 582 compressed objects within 6 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 491 words of extra memory for PDF output out of 10000 (max. 10000000)
 

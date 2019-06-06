@@ -16,6 +16,7 @@
   language=sh,
   basicstyle=\ttfamily
 }
+\usepackage{pdfpages}
 
 % prints author names as small caps
 
@@ -70,7 +71,8 @@
 \large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
 \textit{by}\\[0.4cm]%
 
-\href{http://home.iitk.ac.in/~saiwal}{\authornames}
+%\href{http://home.iitk.ac.in/~saiwal}{\authornames}
+\authornames
 
 \vfill
 \graphicspath{ {./Figures/} }
@@ -81,13 +83,14 @@
 
 \DEPTNAME\\ % Research group name and department name
 \textsc{ \UNIVNAME}\\[1.5cm] % University name
-\large \today\\[2cm] % Date
-
+%\large \today\\[2cm] % Date
+\large May 2019\\[2cm] % Date
 
 \end{center}
 
 \end{titlepage}
 
+\begin{comment}
 %----------------------------------------------------------------------------------------
 %	DECLARATION PAGE
 %	Your institution may give you a different text to place here
@@ -114,8 +117,22 @@ It is certified that the work contained in this thesis entitled ''\ttitle'' by '
 	\end{center}}
 \end{minipage}
 \vfill{}}
-
+\end{comment}
 \clearpage % Start a new page
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=1]{certificate1.pdf}
+\end{figure}
+\clearpage
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.9]{thesisStatement.pdf}
+\end{figure}
+\clearpage
+
+%\includepdf[pages=-, scale=0.8]{certificate1.pdf}
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE

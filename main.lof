@@ -1,22 +1,22 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Possible network configurations for communications in UAVs\relax }}{3}{figure.caption.12}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Possible network configurations for communications in UAVs\relax }}{3}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces A comparison of 802.11 wlan and 802.11s mesh networks\relax }}{7}{figure.caption.17}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces open80211s stack on Linux kernel\relax }}{9}{figure.caption.20}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces logo of OpenWrt\relax }}{9}{figure.caption.22}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces An ssh shell on an openwrt flashed router\relax }}{10}{figure.caption.24}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Tp-Link WR902AC\relax }}{11}{figure.caption.27}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Alfa Tube 2H\relax }}{12}{figure.caption.29}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces LUCI web interface for configuring openwrt routers\relax }}{14}{figure.caption.32}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Mesh architecture with bridging of wireless and ethernet interfaces in routers\relax }}{16}{figure.caption.36}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces An illustration of ROS single master and multimaster setups\relax }}{17}{figure.caption.38}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A comparison of 802.11 wlan and 802.11s mesh networks\relax }}{7}{figure.caption.18}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces open80211s stack on Linux kernel\relax }}{9}{figure.caption.21}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces logo of OpenWrt\relax }}{9}{figure.caption.23}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces An ssh shell on an openwrt flashed router\relax }}{10}{figure.caption.25}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Tp-Link WR902AC\relax }}{11}{figure.caption.28}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Alfa Tube 2H\relax }}{12}{figure.caption.30}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces LUCI web interface for configuring openwrt routers\relax }}{14}{figure.caption.33}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Mesh architecture with bridging of wireless and ethernet interfaces in routers\relax }}{16}{figure.caption.37}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces An illustration of ROS single master and multimaster setups\relax }}{17}{figure.caption.39}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces RFD900x along with antennas and FTDI cables\relax }}{20}{figure.caption.45}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces modems in peer to peer configuration\relax }}{21}{figure.caption.47}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces modems in synchronous mesh configuration\relax }}{22}{figure.caption.49}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces modems in asynchronous mesh configuration\relax }}{23}{figure.caption.51}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces serialros, a serial interface to ROS\relax }}{25}{figure.caption.55}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Static Leader Architecture\relax }}{26}{figure.caption.57}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Dynamic Leader Architecture\relax }}{28}{figure.caption.59}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Flowchart depicting changing mode of a UAV\relax }}{30}{figure.caption.63}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces RFD900x along with antennas and FTDI cables\relax }}{20}{figure.caption.46}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces modems in peer to peer configuration\relax }}{21}{figure.caption.48}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces modems in synchronous mesh configuration\relax }}{22}{figure.caption.50}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces modems in asynchronous mesh configuration\relax }}{23}{figure.caption.52}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces serialros, a serial interface to ROS\relax }}{25}{figure.caption.56}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Static Leader Architecture\relax }}{26}{figure.caption.58}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Dynamic Leader Architecture\relax }}{28}{figure.caption.60}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Flowchart depicting changing mode of a UAV\relax }}{30}{figure.caption.64}
 \addvspace {10\p@ }
